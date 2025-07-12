@@ -1,0 +1,79 @@
+a {
+  color: red;
+  font-size: 40px;
+}
+a:visited {
+  color: rgb(45, 194, 31);
+}
+a:hover {
+  color: yellow;
+  font-size: 200%;
+}
+a:active {
+  color: blue;
+}
+/* Hover effect on div */
+
+/* div {
+  background-color: blueviolet;
+  text-align: center;
+  padding: 20px;
+} */
+/* div:hover {
+  background-color: rgb(43, 144, 226);
+  color: brown;
+} */
+.special p {
+  background-color: red;
+  padding: 20px;
+  color: white;
+  display: none;
+}
+div.special {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+div:hover p {
+  display: block;
+}
+p i:first-child {
+  color: blue;
+}
+
+/* jya jya p koi bija element no first child hse tya b no color 'palevioletred' but it should be direct first child..vchche koi bijo tag avvo na joie.*/
+/* see example by comment the first anchor tag of body...after commenting this p becomes first child of the body.   */
+p:first-child b {
+  color: palevioletred;
+}
+
+.nth_child_div li:nth-child(2) {
+  color: green;
+}
+/* .nth_child_div:nth-child(17) {
+  background-color: blue;
+} */
+/* aa property apply krva maate div body tag ma ketla ma number ni position pr aave 6 e find kri ne nth-child() ma lkhvu pde */
+.nth_child_div li:nth-child(3) {
+  color: red;
+  /* background-color: blueviolet; */
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* ahiya aa css second li ne lagse bcz e h3 ne bhi count krse..in short jya bhi li 3rd position pr hse (including other tags) te li ne css lagse. */
+/* nth-child property br ne pn count krse vchche */
+.odd-even:nth-child(odd) {
+  color: green;
+}
+input:focus {
+  background-color: yellow;
+}
+.focus a:focus {
+  color: aquamarine;
+  font-size: 400%;
+}
+/* press and hold on link to see the focus property */
+::spelling-error {
+  text-decoration: underline red;
+  color: red;
+}

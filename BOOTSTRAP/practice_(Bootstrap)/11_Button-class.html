@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button in Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <strong>Different styles of Buttons</strong>
+        <br>
+        <button class="btn btn-danger">Danger</button>
+        <div class="btn btn-success">Success</div>
+        <button class="btn btn-info px-4">Info</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-dark">Dark</button>
+        <button class="btn btn-light">Light</button>
+        <button class="btn btn-link">Link</button>
+    </div>
+    <br>
+    <strong>Link button</strong>
+    <a href="#" class="btn btn-success">Go to Link</a>
+    <br>
+    <strong>Input type submit button:
+        <input type="submit" class="btn btn-success" value="Submit">
+    </strong>
+    <br>
+    <br>
+    <strong class="mt-5">Input type reset button:
+        <input type="reset" class="btn btn-danger" value="Reset">
+    </strong>
+    <br>
+    <hr>
+
+    <!-- button outlines color -->
+    <div class="container-fluid">
+        <strong>Button outlines</strong>
+        <br>
+        <button class="btn btn-outline-danger">Danger</button>
+        <div class="btn btn-outline-success">Success</div>
+        <button class="btn btn-outline-info px-4">Info</button>
+        <button class="btn btn-outline-warning">Warning</button>
+        <button class="btn btn-outline-dark">Dark</button>
+        <button class="btn btn-outline-light text-dark">Light</button>
+
+        <!-- note: btn-outline-"color" ma hover pr bg color by default dekhay 6-->
+    </div>
+
+    <br>
+    <hr>
+    <!-- size of buttons.. -->
+    <div class="container-fluid">
+        <strong>Button sizes: btn-lg, btn-md, btn-sm</strong>
+        <br>
+        <button class="btn btn-outline-danger btn-lg">btn-lg</button>
+        <div class="btn btn-outline-success btn-md">btn-md</div>
+        <button class="btn btn-outline-info btn-sm">btn-sm</button>
+    </div>
+    <br>
+    <hr>
+
+
+
+    <!-- full width button -->
+    <div class="container">
+        <strong>Full width button: using ".d-grid" class</strong>
+        <div class="d-grid">
+            <button class="btn btn-success ">full width button</button>
+        </div>
+        <!-- note that we have to apply d-grid class on div which is parent of the button not to button -->
+    </div>
+    <br>
+    <hr>
+
+
+
+    <!-- gap between buttons: if we have too many block level elements. -->
+    <div class="container">
+        <strong>gap between buttons</strong>
+        <div class="d-grid gap-3">
+            <button class="btn btn-primary ">button 1</button>
+            <button class="btn btn-danger ">button 2</button>
+            <button class="btn btn-success ">button 3</button>
+        </div>
+        <!-- note that we have to apply d-grid class on div which is parent of the button not to button -->
+    </div>
+    <hr><br>
+
+
+
+    <!-- active and disabled buttons. -->
+    <div class="container">
+        <strong>active and disabled buttons</strong>
+        <br>
+        <div class="btn btn-primary ">Normal button</div>
+        <div class="btn btn-primary active">Active button</div>
+        <div class="btn btn-primary disabled">disabled button</div>
+    </div>
+    <hr><br>
+
+
+
+    <!-- spinner buttons -->
+    <div class="container">
+        <strong>Spinner buttons</strong>
+        <br>
+        <div class="btn btn-primary">
+            <span class="spinner-border spinner-border-sm"></span>
+            <!-- spinner-border-sm is for smaller size of spinner -->
+            Loading
+        </div>
+        <div class="btn btn-primary disabled">
+            <span class="spinner-border spinner-border-sm"></span>
+            <!-- spinner-border-sm is for smaller size of spinner -->
+            Loading
+        </div>
+        <div class="btn btn-primary">
+            <span class="spinner-grow spinner-grow-sm"></span>
+            <!-- spinner-border-sm is for smaller size of spinner -->
+            Loading
+        </div>
+    </div>
+
+
+</body>
+
+</html>

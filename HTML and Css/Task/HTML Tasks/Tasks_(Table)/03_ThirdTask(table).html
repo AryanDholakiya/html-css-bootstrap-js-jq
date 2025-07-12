@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 3</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+      div {
+        margin: 40px;
+      }
+      table {
+        width: 100%;
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-size: 20px;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 15px;
+      }
+      .boldTextAndBgColor {
+        font-weight: 800;
+        background-color: skyblue;
+      }
+      span {
+        font-weight: 800;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <table>
+        <tr>
+          <td colspan="3" class="boldTextAndBgColor">Invoice #12345ABC</td>
+          <td class="boldTextAndBgColor">18 Jul 2019</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <span>Pay To: </span><br />
+            the tech park <br />
+            123, willow street <br />
+            Boulevard, LA - 567892
+          </td>
+          <td colspan="2">
+            <span> Customer: </span><br />
+            Jhon Lark <br />
+            Dummy Apartments 276, main street <br />
+            Boulevard, LA - 567892
+          </td>
+        </tr>
+        <tr>
+          <td class="boldTextAndBgColor">Name/Description</td>
+          <td class="boldTextAndBgColor">Qty.</td>
+          <td class="boldTextAndBgColor">MRP</td>
+          <td class="boldTextAndBgColor">Amount</td>
+        </tr>
+        <tr>
+          <td>Biriyani</td>
+          <td>3</td>
+          <td>400</td>
+          <td>200</td>
+        </tr>
+        <tr>
+          <td>Chocolate Shake</td>
+          <td>3</td>
+          <td>1200</td>
+          <td>600</td>
+        </tr>
+        <tr>
+          <td class="boldTextAndBgColor" colspan="3">SubTotal:</td>
+          <td>1800</td>
+        </tr>
+        <tr>
+          <td class="boldTextAndBgColor" colspan="2">Tax:</td>
+          <td>10%</td>
+          <td>180</td>
+        </tr>
+        <tr>
+          <td class="boldTextAndBgColor" colspan="3">Grand Total:</td>
+          <td>Rs. 1620</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

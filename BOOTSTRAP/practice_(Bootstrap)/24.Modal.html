@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mt-3">
+        <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            1. Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Hello
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+
+
+
+
+        <!-- modal 2: Practice Modal -->
+        <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal2">2. accordion Modal</button>
+
+        <div id="modal2" class="modal fade" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
+            <!-- note "data-bs-backdrop="static""  when you set it to the static that means modal will not going to close on the click outside of modal-->
+            <!-- data-bs-keyboard="false" prevent modal to close on esc key -->
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header 5">
+                        <h1 class="modal-title fs-5">Practice Modal</h1>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Hello, this is the modal for the understanding.
+
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+                        <button class="btn btn-success" data-bs-dismiss="modal">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+
+
+
+
+
+        <!-- modal 3: Scrollable Modal -->
+        <button class="btn btn-danger mt-3" data-bs-toggle="modal" data-bs-target="#modal3">3. Scrollable Modal</button>
+
+        <div id="modal3" class="modal fade" tabindex="-1">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header 5">
+                        <h1 class="modal-title fs-5">Practice Modal</h1>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <pre>
+Hello, this is the modal for the understanding.
+..
+
+..
+
+..
+
+..
+
+...                        
+
+..
+
+..
+
+..
+
+..
+
+..
+
+..
+
+..
+
+..
+                    </pre>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+                        <button class="btn btn-success" data-bs-dismiss="modal">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+
+
+
+
+
+
+        <!-- Vertically centered Modal -->
+        <button class="btn btn-info mt-3" data-bs-toggle="modal" data-bs-target="#modal4">4. vertically centered
+            Modal</button>
+
+        <div id="modal4" class="modal fade" tabindex="-1">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                <!--Note:  modal-dialog-centered -->
+                <div class="modal-content">
+                    <div class="modal-header 5">
+                        <h1 class="modal-title fs-5">Practice Modal</h1>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        this modal vertically centered.
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+                        <button class="btn btn-success" data-bs-dismiss="modal">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+
+
+
+
+
+
+
+
+        <!--Toggle between modals  -->
+        <button class="btn btn-warning mt-3" data-bs-toggle="modal" data-bs-target="#modal5">5. Open 1st Modal</button>
+        <div id="modal5" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5">Model 1</h1>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        this is 1st modal.
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#secondModal">Open 2nd
+                            Modal</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="secondModal" class="modal fade" data-bs-backdrop="static">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <!-- note modal-dialog -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5">Model 2</h1>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        this is 2nd modal.
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <button class="btn btn-primary" data-bs-dismiss="modal">Save Changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

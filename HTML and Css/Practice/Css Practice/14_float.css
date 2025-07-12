@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+h3 {
+  margin: 20px;
+}
+/* div {
+  margin: 20px;
+} */
+p {
+  text-align: justify;
+}
+img {
+  float: right;
+  height: 150px;
+  background-color: aquamarine;
+}
+.mainDiv {
+  float: left;
+  clear: right;
+  /* right side koi cotent float left marelo hse to tene display block aapi ne teni niche thi start krse next content. */
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.div1 {
+  background-color: red;
+}
+.div2 {
+  background-color: green;
+}
+.div3 {
+  background-color: dodgerblue;
+}
+.special {
+  clear: left;
+  margin: 10px;
+  border: 2px solid red;
+  padding: 15px;
+  overflow: auto;
+}
+.special img {
+  float: left;
+}

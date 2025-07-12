@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Events</title>
+</head>
+
+<body>
+    <h3 onclick="this.innerHTML= 'clicked'">Click on this TEXT!</h3>
+    <h2 id="h2" onclick="clicked(this)">CLLICKK On ME</h2>
+    <br>
+
+    <h5>show Date:</h5>
+    <button onclick="showDate()">Press to see current Date</button>
+    <p id="date"></p>
+
+    <!-- alert hello on button click -->
+    <button onclick="alert('simple Button Event')">Alert!</button>
+
+    <!-- alert using addEventListener -->
+    <button id="alert2" onclick="alert2()">Alert 2</button>
+
+
+    <!-- Form Submit Event -->
+    <h2>Form</h2>
+    <form action="" id="myform">
+        Name: <input type="text" name="fname" id="fname"> <br><br>
+        Age: <input type="number" name="age" id="age"><br><br>
+        <input type="submit">
+    </form>
+    <br><br>
+
+
+
+
+    <!-- keyup event  : filtering items from an array-->
+    <h3>keyup event</h3>
+    <input type="text" name="keyup" id="serchbox" placeholder="Write to find...">
+    <p id="output"></p>
+
+
+
+
+
+    <script src="19.6_DOM_Events.js"></script>
+</body>
+
+</html>

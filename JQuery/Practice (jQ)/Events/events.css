@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+}
+.first,
+.mousedown,
+.mousemove,
+.On {
+  border: 1px solid black;
+  padding: 5px;
+  width: 50%;
+  text-align: center;
+  height: 30px;
+}
+#mouseover {
+  display: inline;
+}
+/* hover */
+img {
+  height: 100px;
+  width: 100px;
+}
+#hover {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: red;
+  /* position: absolute;
+  left: 50%;
+  transform: translate(-50%); */
+}

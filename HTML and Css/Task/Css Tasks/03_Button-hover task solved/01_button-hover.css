@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  color: dodgerblue;
+  font-weight: 800;
+}
+.button1 {
+  padding: 10px 30px;
+  border: 2px solid dodgerblue;
+
+  /* below css is for the tooltip */
+  position: relative;
+  display: inline-block;
+}
+/* for the tooltip */
+.button1:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.button2 {
+  padding: 10px 30px;
+
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+}
+.button2:hover {
+  background-color: transparent;
+  border: 2px solid dodgerblue;
+  color: black;
+}
+.button3 {
+  padding: 10px 30px;
+  border: 2px solid dodgerblue;
+  border-radius: 20px;
+}
+.button3:hover {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+}
+.button4 {
+  padding: 10px 30px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+.button4:hover {
+  background-color: transparent;
+  border: 2px solid dodgerblue;
+  color: black;
+}
+.button5 {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-image: linear-gradient(
+    to top right,
+    rgb(51, 51, 206),
+    rgb(9, 233, 9)
+  );
+  /* transition: background-image 2s linear; */
+}
+.button5:hover {
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(51, 51, 206),
+    rgb(9, 233, 9)
+  );
+}
+
+.tooltiptext {
+  visibility: hidden;
+  position: absolute;
+  top: 5px;
+  left: 105%;
+  width: 100px;
+  background-color: black;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  opacity: 0;
+  transition: opacity 1s;
+}
+/* for the arrow leftside of tooltip */
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 101%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}

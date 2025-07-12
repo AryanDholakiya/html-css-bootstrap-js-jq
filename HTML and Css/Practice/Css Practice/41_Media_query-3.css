@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.navigation-bar {
+  margin-top: 20px;
+  background-color: #333;
+  color: white;
+}
+.anchor {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.anchor a {
+  text-decoration: none;
+  color: white;
+  background-color: chocolate;
+  padding: 13px 20px;
+  display: block;
+  /* veryyy veryy imp property...if we dont give this and give padding 40 or 50px then anchortag overflows the navigation bar. */
+}
+.anchor a:hover {
+  color: orange;
+  background-color: #555;
+}
+
+@media screen and (max-width: 600px) {
+  .anchor a {
+    /* width: 100%; */
+    background-color: #999;
+    display: block;
+  }
+
+  .anchor li {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+  }
+  .anchor li:last-child {
+    border-bottom: none;
+  }
+}

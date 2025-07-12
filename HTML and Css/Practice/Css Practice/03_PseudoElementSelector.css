@@ -1,0 +1,20 @@
+p::first-line {
+  color: red;
+}
+p::first-letter {
+  font-size: 30px;
+  color: green;
+}
+p.special::first-line {
+  color: blue;
+}
+h2::before {
+  content: url(img/smily\ emoji\ photo.jpg);
+}
+::marker {
+  color: red;
+}
+::selection {
+  color: white;
+  background-color: black;
+}

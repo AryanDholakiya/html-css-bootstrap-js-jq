@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.greed-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  outline: 15px solid coral;
+}
+.greed-container > div {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: bisque;
+}
+.header {
+  grid-column: 1 / span 3;
+}
+.menu {
+  grid-row: 2 / span 2;
+}
+.footer {
+  grid-column: 2 / 4;
+}

@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  padding: 5px;
+}
+
+.colored {
+  color: red;
+}
+
+#divv {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.updateDivCss {
+  background-color: greenyellow;
+  text-align: center;
+  font-size: xx-large;
+}

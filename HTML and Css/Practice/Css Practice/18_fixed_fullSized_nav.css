@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+/* .sideNav {
+  margin: 20px;
+} */
+.sideNav ul {
+  list-style-type: none;
+  width: 20%;
+  height: 100%;
+  background-color: #999;
+  position: fixed;
+  /* note */
+}
+.sideNav li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+.sideNav li a:hover:not(.special) {
+  background-color: #777;
+  color: white;
+}
+li .special {
+  background-color: dodgerblue;
+}
+.rightPart {
+  margin-left: 25%;
+  height: 900px;
+  padding: 20px;
+  line-height: 3em;
+}

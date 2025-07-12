@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+@property --startingColor {
+  syntax: "<color>";
+  initial-value: #eadedb;
+  inherits: true;
+}
+
+@property --endingColor {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #bc70a4;
+}
+
+.subdiv {
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  background: linear-gradient(var(--startingColor), var(--endingColor));
+  animation: animate 4s linear alternate-reverse infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    --startingColor: red;
+    --endingColor: #bc70a4;
+  }
+  50% {
+    --startingColor: orange;
+    --endingColor: #bfd641;
+  }
+}

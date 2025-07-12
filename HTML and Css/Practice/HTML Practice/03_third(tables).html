@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+    <link type="icon" rel="icon" href="img/html5 icon.gif" />
+    <!-- here the rel attribute is neccessary -->
+    <style>
+      th,
+      td,
+      table {
+        border: 1px dotted brown;
+        /* border-style: dotted;
+        border-color: brown; */
+        border-collapse: collapse;
+        text-align: center;
+        background-color: #96d4d4;
+        border-radius: 10px;
+        /* if you want to show border radius then you have to comment border-collapse */
+      }
+      .new th,
+      td {
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <table style="width: 100%">
+      <caption>
+        Student data
+      </caption>
+      <thead>
+        <tr style="height: 50px">
+          <th style="width: 30%">name</th>
+          <th style="width: 50%">Enrollment</th>
+          <th style="width: 20%">branch</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>abc</td>
+          <td>210020</td>
+          <td>i.t</td>
+        </tr>
+        <tr>
+          <td>ac</td>
+          <td>210030</td>
+          <td>i.t</td>
+        </tr>
+        <tr>
+          <td>ca</td>
+          <td>210090</td>
+          <td>i.t</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td colspan="3">total students: 3</td>
+      </tfoot>
+    </table>
+    <br />
+    <hr />
+    <hr />
+    <br />
+
+    <table style="width: 100%">
+      <caption>
+        Vertical headings
+      </caption>
+
+      <tbody>
+        <tr>
+          <th style="width: 20%">name</th>
+          <td>Abc</td>
+          <td>i.t</td>
+        </tr>
+        <tr>
+          <th>Enrollment</th>
+          <td>bcs</td>
+          <td>i.t</td>
+        </tr>
+        <tr>
+          <th>branch</th>
+          <td>bcs</td>
+          <td>i.t</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+    <br />
+    <hr />
+    <hr />
+    <br />
+
+    <table style="width: 100%" class="new">
+      <caption>
+        padding in table
+      </caption>
+      <thead>
+        <tr>
+          <th>FirstName</th>
+          <th>LastName</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>abc</td>
+          <td>bcd</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>abc</td>
+          <td>bcd</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>abc</td>
+          <td>bcd</td>
+          <td>12</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <hr />
+    <hr />
+    <br />
+
+    <table style="width: 100%">
+      <caption>
+        colspan & rowspan
+      </caption>
+      <thead>
+        <tr>
+          <th>name</th>
+          <th>Subject 1</th>
+          <th>Subject 2</th>
+          <th>Subject 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>abc</td>
+          <td>maths</td>
+          <td>chemistry</td>
+          <td>physics</td>
+        </tr>
+        <tr>
+          <td colspan="2">dbc</td>
+          <td>maths</td>
+          <td>physics</td>
+        </tr>
+        <tr>
+          <td rowspan="2">avfd</td>
+          <td>chemistry</td>
+          <td>physics</td>
+          <td>maths</td>
+        </tr>
+        <tr>
+          <td>chemistry</td>
+          <td>physics</td>
+          <td>maths</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <hr />
+    <hr />
+    <br />
+  </body>
+</html>

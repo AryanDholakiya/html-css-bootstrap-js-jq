@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+}
+.subdiv {
+  text-align: center;
+}
+
+h1 {
+  font-size: 500%;
+  /* border: 1px dotted orange; */
+  position: relative;
+}
+
+h1::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 5px;
+  width: 0px;
+  /* height: 2px; */
+  /* background-color: black;    */
+  border-bottom: 2px solid black;
+  transition: all 0.5s ease-in-out;
+}
+h1:hover::after {
+  width: 100%;
+  left: 0%;
+  /* border-radius: 10px; */
+}

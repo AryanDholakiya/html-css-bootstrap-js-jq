@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropDown</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mt-3">
+
+        <button class="btn btn-primary dropdown-toggle " data-bs-toggle="dropdown">
+            Dropdown
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">apple</a></li>
+            <li><a class="dropdown-item" href="#">Banana</a></li>
+            <li><a class="dropdown-item" href="#">pineapple</a></li>
+            <li><a class="dropdown-item" href="#">mango</a></li>
+        </ul>
+        <br><br>
+        <div class="dropdown-center">
+            <div class="btn-group">
+                <!-- note that btn-group class...without ths btn-toggle will not merged with buttons -->
+                <button class="btn btn-danger">separated button</button>
+                <button class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
+                <ul class="dropdown-menu dropdown-menu-center">
+                    <li><a href="#" class="dropdown-item">A</a></li>
+                    <li><a href="#" class="dropdown-item">B</a></li>
+                    <li><a href="#" class="dropdown-item">C</a></li>
+                </ul>
+            </div>
+        </div>
+        <br><br>
+
+        <h4 class="text-start text-decoration-underline">practice</h4>
+        <!-- note here: below we added a extra div to open the dropdown center of button -->
+        <div class="dropdown-center">
+            <button class="btn btn-warning dropdown-toggle " data-bs-toggle="dropdown">separated
+                line</button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a href="#" class="dropdown-item">1</a></li>
+                <li><a href="#" class="dropdown-item">2</a></li>
+                <li><a href="#" class="dropdown-item">3</a></li>
+                <li><a href="" class="dropdown-divider"></a></li>
+                <li><a href="#" class="dropdown-item">4</a></li>
+            </ul>
+        </div>
+        <br><br>
+
+        <div class="dropdown btn-group dropend"><!-- .dropdown class na laie to bhi issue nai aavses-->
+            <!-- we can use dropup,dropstart -->
+            <button class="btn btn-info" data-bs-toggle="dropdown">Drop-End</button>
+            <button class="btn btn-info dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a href="#" class="dropdown-item">item 1</a></li>
+                <li><a href="#" class="dropdown-item">item 2</a></li>
+                <li><a href="#" class="dropdown-item">item 3</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

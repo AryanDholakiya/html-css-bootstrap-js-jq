@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: 100px 100px 100px;
+  gap: 5px;
+
+  padding: 20px;
+  background-color: #999;
+  text-align: center;
+}
+.item {
+  background-color: dodgerblue;
+  border: 1px solid black;
+}
+.item-1 {
+  grid-column: 1 / 4;
+  /* grid-column: 1 / span 3;   or we can also write like this */
+    
+}

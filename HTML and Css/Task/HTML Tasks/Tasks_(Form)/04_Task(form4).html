@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Task 4</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+      .lables {
+        width: 10%;
+        float: left;
+      }
+      .parent {
+        display: flex;
+      }
+      .second {
+        margin-left: 20px;
+      }
+      form {
+        margin: 40px;
+      }
+      fieldset {
+        padding: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Application Form</legend>
+        <br />
+        <label for="Fullname" class="lables">Full name </label>
+        <input type="text" name="Fullname" class="ipfields" required />
+        <br />
+        <br />
+
+        <label for="email" class="lables">E-mail </label>
+        <input type="email" name="email" class="ipfields" required />
+        <br />
+        <br />
+
+        <label for="gender" class="lables">Gender: </label>
+        <input type="radio" name="gender" value="Male" />
+        <label for="male">Male </label> &nbsp;
+        <input type="radio" name="gender" value="Female" />
+        <label for="female">Female </label>
+        <br />
+        <br />
+
+        <label for="gender" class="lables">Nationality </label>
+        <input list="Nationality" required />
+        <datalist name="nation" id="Nationality" required>
+          <option value="IND">India</option>
+          <option value="AUS">Australia</option>
+          <option value="USA">United States of America</option>
+        </datalist>
+        <br />
+        <br />
+
+        <label for="skills" class="lables">Skills </label>
+        <div class="parent">
+          <div>
+            <input type="checkbox" name="skill" id="" />
+            <label for="Asp.net">Asp.net</label>
+            <br />
+            <input type="checkbox" name="skill" id="" />
+            <label for="MVC">MVC</label>
+          </div>
+          <div class="second">
+            <input type="checkbox" name="skill" id="" />
+            <label for="Jquery">Jquery</label>
+            <br />
+            <input type="checkbox" name="skill" id="" />
+            <label for="SQL">SQL Server</label>
+          </div>
+        </div>
+        <br />
+
+        <label for="skills" class="lables">Post Applying <br />For </label>
+        <div class="parent">
+          <div>
+            <input type="radio" name="post" id="" value="Trainee" />
+            <label for="Trainee">Trainee</label>
+            <br />
+            <input type="radio" name="post" id="" value="Team-Leader" />
+            <label for="Team-Leader">Team-Leader</label>
+          </div>
+          <div class="second">
+            <input type="radio" name="post" id="" value="Software Engineer" />
+            <label for="Software Engineer">Software Engineer</label>
+            <br />
+            <input type="radio" name="post" id="" value="Project Manager" />
+            <label for="Project Manager">Project Manager</label>
+          </div>
+        </div>
+        <br />
+
+        <label for="file" class="lables">Upload<br />Resume </label>
+        <input type="file" name="file" id="" />
+        <br />
+        <br />
+        <br />
+
+        <label for="field" class="lables">Paste your<br />Resume </label>
+        <textarea name="any" id="" rows="5" cols="30"></textarea>
+        <br />
+        <br />
+
+        <input type="checkbox" name="notify" id="" required />
+        <label for="">Notify me the status via email.</label>
+        <br />
+
+        <input type="radio" name="notify" id="" required />
+        <label for="">I agree to terms and conditions.</label>
+        <br /><br />
+        <input type="submit" value="submit" />
+        <input type="reset" value="reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>

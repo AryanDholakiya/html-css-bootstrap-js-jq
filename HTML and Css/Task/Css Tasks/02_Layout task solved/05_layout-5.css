@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(36, 180, 236);
+}
+.header {
+  text-align: center;
+  color: white;
+}
+.header h1 {
+  font-size: 300%;
+}
+.main {
+  margin-top: 60px;
+  width: 80%;
+  /* height: 200px; */
+  margin: auto;
+  /* background-color: green; */
+}
+.main-content {
+  margin-top: 100px;
+  display: flex;
+}
+.content {
+  /* width: 30%; */
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border: none;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445),
+    -2px -2px 5px rgba(0, 0, 0, 0.445);
+}
+.content img {
+  border: none;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  margin: 10px;
+
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.562),
+    -3px -3px 5px rgba(0, 0, 0, 0.562);
+}
+.sub-content h4 {
+  margin-bottom: 10px;
+  text-decoration: underline;
+  font-weight: 800;
+  color: rgb(113, 123, 133);
+}
+.sub-content {
+  margin-bottom: 15px;
+  text-align-last: center;
+}
+.sub-content p {
+  font-size: 13px;
+  color: lightslategrey;
+}
+/* .content2 {
+  width: 33.33%;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+} */
+/* .content2 img {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  margin: 10px;
+
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.562),
+    -3px -3px 5px rgba(0, 0, 0, 0.562);
+} */
+/* .content2-content h4 {
+  margin-bottom: 10px;
+  text-decoration: underline;
+  font-weight: 800;
+  color: lightslategrey;
+} */
+/* .content2-content {
+  margin-bottom: 15px;
+} */
+
+/* .content3 {
+  width: 33.33%;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+} */
+/* .content3 img {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  margin: 10px;
+
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.562),
+    -3px -3px 5px rgba(0, 0, 0, 0.562);
+} */
+/* .content3-content h4 {
+  margin-bottom: 10px;
+  text-decoration: underline;
+  font-weight: 800;
+  color: lightslategrey;
+} */
+/* .content3-content {
+  margin-bottom: 15px;
+} */

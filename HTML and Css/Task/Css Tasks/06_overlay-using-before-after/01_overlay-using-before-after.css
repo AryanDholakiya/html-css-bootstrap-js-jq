@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.main {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.div1 {
+  height: 180px;
+  width: 180px;
+  /* background-color: #888; */
+  border: 1px solid #333;
+  position: relative;
+  /* position is important */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.common {
+  margin: 10px;
+}
+.div1::before {
+  content: "";
+  /* content is important */
+
+  position: absolute;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  transition: all 0.6s;
+  border-radius: 10px;
+  z-index: -1;
+}
+.div1:hover::before {
+  bottom: 0%;
+}
+
+/* bottom to top */
+.div4 {
+  height: 180px;
+  width: 180px;
+  background-color: #888;
+  border: 1px solid #333;
+  position: relative;
+  /* position is important */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+  margin-bottom: 10px;
+}
+.div4::before {
+  content: "";
+  /* content is important */
+
+  position: absolute;
+  top: 100%;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background-color: whitesmoke;
+  transition: all 0.6s;
+  border-radius: 10px;
+}
+.div4:hover::before {
+  top: 0;
+}
+
+/* left to right */
+.div2 {
+  height: 180px;
+  width: 180px;
+  background-color: cadetblue;
+  border-radius: 10px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div2::after {
+  content: "";
+  /* content is important */
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 100%;
+  background-color: yellowgreen;
+  transition: 0.7s ease;
+  border-radius: 10px;
+  /* z-index: -1; */
+}
+.div2:hover::after {
+  right: 0;
+}
+
+/* right to left */
+.div3 {
+  height: 180px;
+  width: 180px;
+  background-color: rebeccapurple;
+  border-radius: 10px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div3::after {
+  content: "";
+  /* content is important */
+
+  position: absolute;
+  top: 0;
+  left: 100%;
+  bottom: 0;
+  right: 0;
+  background-color: dodgerblue;
+  transition: 0.7s ease;
+  border-radius: 10px;
+  /* z-index: -1; */
+}
+.div3:hover::after {
+  left: 0;
+}
+
+/* scale */
+
+.div5 {
+  height: 180px;
+  width: 180px;
+  background-color: rebeccapurple;
+  border-radius: 10px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div5::after {
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  scale: 0;
+  background-color: dodgerblue;
+  position: absolute;
+  transition: all 0.6s ease;
+  border-radius: 10px;
+}
+.div5:hover::after {
+  scale: 1;
+}
+
+.special {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

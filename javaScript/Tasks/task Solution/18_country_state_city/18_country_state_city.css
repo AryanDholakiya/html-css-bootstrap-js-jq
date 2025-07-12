@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 
+body {
+  height: 100vh !important;
+  width: 100vw !important;
+  background-color: rgb(154, 198, 236) !important;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+} */
+body {
+  height: 100%;
+  width: 100%;
+}
+.heading {
+  text-align: center;
+}

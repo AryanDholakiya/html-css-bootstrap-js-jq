@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #f1f1f1;
+  margin: 20px 10px;
+}
+div.Translate {
+  margin: 10px;
+  padding: 5px;
+  width: 200px;
+  height: auto;
+  word-wrap: break-word;
+  text-align: justify;
+  border: 1px solid red;
+  background-color: dodgerblue;
+
+  transform: translate(50px, 100px);
+  /* note this  */
+}
+
+.rotateProp h3 {
+  margin-top: 10%;
+  /* it because of the transform: translate */
+}
+.no-rotate {
+  background-color: yellow;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  word-wrap: break-word;
+  text-align: justify;
+  border: 1px solid red;
+}
+.rotate {
+  background-color: yellow;
+  margin-left: 20px;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  word-wrap: break-word;
+  text-align: justify;
+  border: 1px solid red;
+
+  transform: rotate(20deg);
+  /* if we give -20 degree then div will rotate anticlockwise 20deg. */
+}
+
+.no-scale {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  background-color: aquamarine;
+}
+.scale {
+  margin-left: 40px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  background-color: aquamarine;
+  word-wrap: wrap;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  /* transform: translate(500px, 10px); */
+  transform: scale(2, 2);
+}
+.scale:hover {
+  overflow: visible;
+  /* margin: 100px; */
+}

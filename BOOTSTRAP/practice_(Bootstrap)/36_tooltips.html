@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltips</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h2 class="text-center text-decoration-underline">ToolTip </h2>
+    <div class="container mt-3">
+        <button class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom"
+            title="This is Tooooooltip">Hover For Tooltip</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script> -->
+    <script>
+        var tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+        var tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+
+    <hr>
+
+
+
+
+
+    <!-- custom focus ring -->
+    <h2 class="text-center text-decoration-underline">focus-ring</h2>
+
+
+    <div class="container">
+        <h5>Normal focus-ring</h5>
+        <a href="#"
+            class="py-1 px-2 border border-2 border-danger-subtle rounded text-decoration-none focus-ring">Custom
+            Focus</a>
+        <!-- note down that focus-ring class -->
+        <br>
+        <br>
+
+        <!-- blurry focus ring and focus-ring color  -->
+        <h5>blurry focus-ring</h5>
+        <a href="#" class="focus-ring py-1 px-2 border border-2 text-decoration-none rounded"
+            style=" --bs-focus-ring-x: 5px; --bs-focus-ring-y: 5px; --bs-focus-ring-blur:4px ">Custom
+            Focus</a>
+
+        <br><br>
+
+        <!-- focus-ring with color -->
+        <h5>focus-ring with color</h5>
+        <a href="#"
+            class="focus-ring focus-ring-success py-1 px-2 border border-0 rounded text-decoration-none text-bg-danger    ">focus-ring
+            with
+            color</a>
+    </div>
+
+
+    <hr>
+
+
+
+
+
+
+    <!-- Icon Link -->
+    <h2 class="text-center text-decoration-underline">Icon-link</h2>
+
+    <div class="container">
+        <h6 class="text-decoration-underline">normal icon-link</h6>
+        <a href="https://getbootstrap.com/docs/5.3/helpers/icon-link" class="icon-link text-decoration-none">
+            <img src="../imgs/bootstrap-logo.svg" height="20px" alt="icon">
+            BootStrap IconLink
+        </a>
+        <br>
+        <br>
+
+
+
+        <h6 class="text-decoration-underline">icon-link style-on-hover</h6>
+        <a href="https://getbootstrap.com/docs/5.3/helpers/icon-link" class="icon-link icon-link-hover">
+            <img src="../imgs/bootstrap-logo.svg" height="20px" alt="">
+            style On Hover
+            <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                <path
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                </path>
+            </svg>
+            <!-- icon-link-hover specially svg saathe j work kre chhe.
+             icon-link-hover class internally SVG ne slide effect aape che via CSS (using transform and transition), pan <img> tag par aa effect apply thato nathi by default.   -->
+        </a>
+    </div>
+
+
+
+
+</body>
+
+</html>

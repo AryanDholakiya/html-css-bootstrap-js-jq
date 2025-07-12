@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  margin: 10px;
+}
+.HeaderLinks ul {
+  list-style-type: none;
+  background-color: #333;
+  overflow: auto;
+}
+.HeaderLinks li {
+  float: left;
+}
+.HeaderLinks a {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+.HeaderLinks li a:hover {
+  background-color: #222;
+  font-variant: small-caps;
+}
+li .specialHeader {
+  background-color: dodgerblue;
+}
+.column {
+  float: left;
+  padding: 15px;
+}
+.Body {
+ 
+  clear: both;
+ 
+}
+.sidebar {
+  width: 25%;
+}
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.sidebar li a {
+  display: block;
+  text-decoration: none;
+  padding: 8px;
+  color: #666;
+  background-color: #eee;
+  margin: 4px;
+}
+.sidebar li a:hover {
+  background-color: #666;
+  color: white;
+}
+.content {
+  float: left;
+  width: 75%;
+}
+.ContentHeader {
+  padding: 30px;
+  background-color: dodgerblue;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+}
+.content h3 {
+  margin: 20px 0px;
+  font-size: 30px;
+}
+.sidebar .special2 {
+  background-color: #008cba;
+}
+.content p {
+  line-height: 30px;
+}
+.footer {
+  clear: both;
+}
+div .footer {
+  background-color: #666;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+}

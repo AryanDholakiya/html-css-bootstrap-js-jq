@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+.parent {
+  position: relative;
+  margin: 20px;
+  height: 200px;
+  border: 2px solid red;
+}
+.absolute {
+  position: absolute;
+  width: 50%;
+  bottom: 10px;
+  border: 2px solid green;
+}
+.relative {
+  position: relative;
+  bottom: 5px;
+  border: 2px solid green;
+  width: 50%;
+
+  /* un-comment the bottom: 5px; to understand the relative.
+  basically This div's bottom edge is placed 5 pixels above its normal position.  */
+}
+.stickey {
+  position: sticky;
+  border: 2px solid green;
+  bottom: 0px;
+  left: 0;
+  width: 50%;
+}
+.fixed {
+  position: fixed;
+  border: 2px solid green;
+  bottom: 10px;
+  width: 50%;
+}

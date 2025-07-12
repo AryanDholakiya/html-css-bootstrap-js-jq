@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.subdiv {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  /* transform: translate(-50%, -50%); */
+
+  transition: transform 1s ease;
+  /* note */
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+.subdiv:hover {
+  transform:  rotate(180deg);
+  /* transform: translate(-50%, -50%); */
+  /* note the translate prop here */
+}
+h6 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}

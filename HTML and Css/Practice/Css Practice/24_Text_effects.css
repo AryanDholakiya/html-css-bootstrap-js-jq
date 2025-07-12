@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+div {
+  margin: 20px;
+}
+.ptag1 {
+  border: 1px solid black;
+  width: 150px;
+  margin: 10px;
+}
+.ptag1 p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+.ptag2 {
+  border: 1px solid black;
+  width: 150px;
+  margin: 10px;
+}
+.ptag2 p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+div p:hover {
+  overflow: visible;
+}
+
+/* word wrap css */
+.wordWrap {
+  border: 1px solid black;
+  width: 150px;
+  word-wrap: break-word;
+  /* word-break: break-all; */
+}
+
+/* writing Mode */
+p.writingMode {
+  writing-mode: vertical-lr;
+}

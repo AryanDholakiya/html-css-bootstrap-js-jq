@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.main {
+  height: 200px;
+  width: 200px;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+.main img {
+  /* border: 1px solid green; */
+  /* filter: blur(2px); */
+  /* filter: brightness(150%); :-> 100% is default */
+  filter: opacity(0.5);
+  /* filter: contrast(50%); -->100% default....jem ghte em gray thti jai image */
+  box-shadow: 5px 5px 10px #999, -5px -5px 10px #999;
+}
+/* differece between Drop-shadow and box-shadow */
+.main2 {
+  height: 200px;
+  width: 200px;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+.main2 img {
+  /* border: 1px solid green; */
+  filter: drop-shadow(5px 5px 10px #999) drop-shadow(-5px -5px 10px #999);
+}

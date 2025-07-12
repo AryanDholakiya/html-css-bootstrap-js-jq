@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="13.bootstrap-forms.css">
+
+</head>
+
+<body>
+    <div class="container border border-secondary p-3">
+        <h3 class="text-center text-decoration-underline">Basic form using Bootstrap</h3>
+        <form action="">
+            <div class="my-3">
+                <label for="Email" class="form-label">E-mail Address:</label>
+                <input type="email" name="email" id="mail" class="form-control" aria-labelledby="emailHelpBlock">
+                <span id="emailHelpBlock" class="form-text">We'll never share your e-mail with anyone.</span>
+                <!-- understand why we used the aria-labelledby from gpt.  -->
+                <!-- That means the screen reader will read out both the label ("email") and the description in the span with ID emailHelpBlock. -->
+                <!-- So someone using a screen reader hears something like:
+                    "email.We'll never share your e-mail with anyone."
+                    
+                    it is not so helpfull bcz This gives users extra context about the input field — super useful for people who can't see the screen.-->
+            </div>
+            <div class="mb-3">
+                <label for="pwd" class="form-label">Password:</label>
+                <input type="password" name="pass" id="pwd" class="form-control">
+            </div>
+            <div class="form-check mb-3">
+                <input type="checkbox" name="check" class="form-check-input"> Check me Out
+            </div>
+            <div class="d-grid">
+                <input type="submit" value="Submit" class="btn btn-primary">
+            </div>
+            <!-- <div class="btn btn-primary d-grid">Submit</div> -->
+        </form>
+        <br>
+        <hr>
+
+
+        <!-- disabled form -->
+        <h3 class="text-center text-decoration-underline">Disabled fileds</h3>
+        <fieldset disabled>
+            <!-- note here we took a entire form into a fieldset and give it attribute disabled so entire form will be disabled. -->
+            <form action="">
+                <div class="my-3">
+                    <label for="Email" class="form-label">E-mail Address:</label>
+                    <input type="email" name="email" id="mail" class="form-control" placeholder="disabled field">
+                    <span class="form-text">We'll never share your e-mail with anyone.</span>
+                </div>
+                <div class="mb-3">
+                    <label for="pwd" class="form-label">Password:</label>
+                    <input type="password" name="pass" id="pwd" class="form-control" placeholder="disabled">
+                </div>
+                <div class="form-check mb-3">
+                    <input type="checkbox" name="check" class="form-check-input"> Check me Out
+                </div>
+                <div class="d-grid">
+                    <input type="button" value="Submit" class="btn btn-primary">
+                    <br>
+                    <input type="button" value="reset" class="btn btn-danger" disabled>
+                    <!-- we can make particular field disabled also like this if we dont want to disable entire form -->
+                </div>
+            </form>
+        </fieldset>
+
+        <br>
+        <hr>
+        <h3 class="text-center text-decoration-underline">General practice for bootstrap forms</h3>
+        <div class="my-3">
+            <label for="email" class="form-label">Enter Email: </label>
+            <input type="email" name="email" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="example" class="form-label">example text-area: </label>
+            <textarea name="Address" class="form-control" id=""></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="size" class="form-label">size of the form-control / Input fields.</label>
+            <label for="" class="form-label">form-control form-control-lg: </label>
+            <input type="text" name="any" class="form-control form-control-lg mb-3">
+            <label for="" class="form-label">form-control form-control-sm: </label>
+            <input type="text" name="any" class="form-control form-control-sm">
+        </div>
+        <div class="mb-3 g-3 align-items-center row">
+            <div class="col-auto">
+                <label for="col" class="form-label">Password</label>
+            </div>
+            <div class="col-auto">
+                <input type="password" class="form-control" name="" id="">
+            </div>
+            <div class="col-auto">
+                <span class="form-text">write difficult password</span>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="any1" class="form-label">disabled and readonly inputfield:</label>
+            <input type="text" class="form-control border border-secondary" value="disabled and readonly inputfield"
+                name="any1" id="" disabled readonly>
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Readonly plain text using ".form-control-plaintext" class: </label>
+            <input type="email" value="formcontrolplaintextclass@gmail.com" name="readonly plain text"
+                class="form-control-plaintext" id="">
+        </div>
+        <div class="row g-3 mb-3">
+            <div class="col-auto">
+                <label type="email" name="" class="col-auto visually-hidden" id="">email:</label>
+                <input type="email" value="abc@gmail.com" class="form-control-plaintext">
+            </div>
+            <div class="col-auto">
+                <input type="password" name="pass" class="form-control" id="">
+            </div>
+            <div class="col-auto">
+                <div class="btn btn-primary">Confirm</div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <h3 class="text-center text-decoration-underline">different File Inputs</h3>
+        <div class="mb-3">
+            <label for="" class="form-label">Normal file input:</label>
+            <input type="file" name="" class="form-control" id="">
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Multiple file input:</label>
+            <input type="file" name="" class="form-control" id="" multiple>
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Disabled file input:</label>
+            <input type="file" name="" class="form-control" id="" disabled>
+        </div>
+        <hr>
+        <h3 class="text-center text-decoration-underline">DataList(with FILTERIZATION)</h3>
+        <label for="datalist" class="form-label">DataList Example: </label>
+        <input type="text" name="datalist" class="form-control" list="datalistOptionsFilter" id="">
+        <datalist id="datalistOptionsFilter">
+            <option value="Surat">varachha</option>
+            <option value="rajkot">gondal</option>
+            <option value="ahemdabad">Sitilink</option>
+            <option value="kutchh">Bhuj</option>
+        </datalist>
+        <!-- note that we have to give "list" in the input field and same we have to give id into the datalist for the filterization. -->
+        <br>
+        <hr>
+        <h3 class="text-center text-decoration-underline">Select field</h3>
+        <div class="mb-3">
+            <select name="" class="form-select" id="">
+                <option value="" selected disabled>Choose the city</option>
+                <option value="1">surat</option>
+                <option value="2">baroda</option>
+                <option value="3">ahemdabad</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <select name="" class="form-select form-select-lg" id="">
+                <option value="">form-select-lg</option>
+                <option value="1">one</option>
+                <option value="2">two</option>
+                <option value="3">three</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <select name="" class="form-select form-select-sm" id="">
+                <option value="">form-select-sm</option>
+                <option value="1">one</option>
+                <option value="2">two</option>
+                <option value="3">three</option>
+            </select>
+        </div>
+        <br>
+        <hr>
+        <h3 class="text-center text-decoration-underline">Checks and radios</h3>
+        <div class="mb-3 form-check">
+            <label for="" class="form-check-label">Default checkbox</label>
+            <input type="checkbox" name="" class="form-check-input border border-secondary" id="">
+            <br>
+            <label for="" class="form-check-label">selected checkbox</label>
+            <input type="checkbox" name="" class="form-check-input border border-secondary" id="" checked>
+            <!-- note: vgr br tag between the to input fields in bootstrap will not work properly.
+              if you don't wanna use the br then make 2 different divs for the different checkbox, radios etc... -->
+        </div>
+        <hr>
+        <br>
+        <h4>radios</h4>
+        <div class="form-check mb-3">
+            <label for="" class="form-label">Default radio</label>
+            <input type="radio" name="same" class="form-check-input" id="">
+            <br>
+            <label for="" class="form-label">selected radio</label>
+            <input type="radio" name="same" class="form-check-input" id="" checked>
+            <br>
+            <label for="" class="form-label">disabled radio</label>
+            <input type="radio" name="same" class="form-check-input border border-secondary" id="" disabled>
+        </div>
+        <hr>
+        <br>
+        <h4 class="col-auto">Switches(same as checkbox), </h4>
+        <h6 class="col-auto">we only have to add "form-switch" class in main div of it</h6>
+
+        <div class="form-check form-switch mb-3">
+            <label for="" class="form-check-label">Default Switch input field</label>
+            <input type="checkbox" name="" class="form-check-input border border-secondary" role="switch">
+            <br>
+            <label for="" class="form-check-label">checked from switch</label>
+            <input type="checkbox" name="" class="form-check-input border border-secondary" role="switch" checked>
+            <!-- role is not neccessary field -->
+            <br>
+            <label for="" class="form-check-label">Disabled switch checkbox input</label>
+            <input type="checkbox" name="" class="form-check-input border border-secondary" role="switch" disabled>
+            <br>
+            <label for="" class="form-check-label">Disabled checked switch checkbox input</label>
+            <input type="checkbox" name="" class="form-check-input border border-secondary" id="" checked disabled>
+        </div>
+        <br>
+        <hr>
+
+
+
+
+        <h6 class="form-text">By default, any number of checkboxes and radios that are immediate sibling will be
+            vertically stacked and appropriately spaced with .form-check.
+        </h6>
+
+        <div class="mb-3">
+            <h4>checkboxes inline</h4>
+            <div class="form-check form-check-inline">
+                <label for="" class="form-check-label">checkbox 1</label>
+                <input type="checkbox" name="" id="" class="form-check-input border border-secondary">
+            </div>
+            <div class="form-check form-check-inline">
+                <label for="" class="form-check-label">Checkbox 2</label>
+                <input type="checkbox" name="" class="form-check-input border border-secondary">
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <div class="form-check form-check-inline">
+                <label for="" class="form-check-label">radio 1</label>
+                <input type="radio" name="same2" class="form-check-input border border-secondary" id="">
+            </div>
+            <div class="form-check form-check-inline">
+                <label for="" class="form-check-label">radio 2</label>
+                <input type="radio" name="same2" class="form-check-input border border-secondary" id="">
+            </div>
+        </div>
+        <hr>
+        <br>
+        <h3 class="text-center text-decoration-underline">Checkbox toggle button</h3>
+
+        <div class="mb-3">
+            <input type="checkbox" class="btn-check" id="btn-check-4">
+            <label for="btn-check-4" class="btn btn-outline-dark">Button 1</label>
+        </div>
+        <!-- note: btn-check ne kaam krva mate lable always inputfield ni niche hovo joie and label na for attribute ni value input ni id same hovi joie-->
+        <div class="mb-3">
+            <input type="checkbox" class="btn-check" id="btn-check-5" checked="" />
+            <label class="btn btn-outline-danger" for="btn-check-5">Checked</label>
+        </div>
+        <hr>
+        <br>
+
+        <h3 class="text-center text-decoration-underline">radio toggle button</h3>
+        <div class="form-check form-check-inline">
+            <input type="radio" name="toggleRadio" class="btn-check" id="btn-check-1">
+            <label for="btn-check-1" class="btn btn-outline-danger">Male</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input type="radio" name="toggleRadio" class="btn-check" id="btn-2">
+            <label for="btn-2" class="btn btn-outline-danger">Female</label>
+        </div>
+        <hr>
+        <br>
+
+        <h3 class="text-center text-decoration-underline"> Input Group <span class="from-text">Very Useful</span></h3>
+
+        <div class="input-group">
+            <span class="input-group-text border-2">@</span>
+            <!-- note here the "form-group-text" class and "input-group class at parent div" -->
+            <input type="text" name="name" placeholder="Eenter Username" class="form-control border ">
+        </div>
+        <br>
+        <div class="input-group mb-3">
+            <input type="text" name="holder name" id="" class="form-control">
+            <span class="input-group-text">@gmail.com</span>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">"input-group" with text-area</span>
+            <textarea name="" id="" class="form-control"></textarea>
+        </div>
+        <div class="input-group input-group-lg mb-3">
+            <span class="input-group-text  border border-secondary"> size in "input-group" </span>
+            <input type="text" name="" id="" class="form-control  border border-secondary">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">Enter first and last name</span>
+            <input type="text" name="fname" placeholder="Enter First name" class="form-control" id="">
+            <input type="text" name="lname" placeholder="Enter last name" class="form-control" id="">
+        </div>
+        <h2 class="text-center text-decoration-underline">Dropdown Button in input-group</h2>
+        <div class="input-group mb-4">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button"
+                data-bs-toggle="dropdown">Dropdown</button>
+            <div class="dropdown-menu">
+                <div class="dropdown-item cursor-pointer">item 1</div>
+                <div class="dropdown-item">item 2</div>
+                <div class="dropdown-item">item 3</div>
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-item">item 4</div>
+            </div>
+            <input type="text" name="" id="" class="form-control">
+        </div>
+        <div class="input-group">
+            <button class="btn btn-outline-secondary">DropDown</button>
+            <button class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                data-bs-toggle="dropdown"></button>
+            <div class="dropdown-menu">
+                <div class="dropdown-item">item-1</div>
+                <div class="dropdown-item">item-2</div>
+                <div class="dropdown-item">item-3</div>
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-item">item-4</div>
+            </div>
+            <input type="text" class="form-control" name="" id="">
+        </div>
+
+        <br>
+        <h4 class="text-center text-decoration-underline">Custom select in input-group</h4>
+        <div class="input-group">
+            <label class="input-group-text" for="inputGroupSelect01">Options</label>
+            <select name="" class="form-select" id="inputGroupSelect01">
+                <!-- we should have to note that  because of same id in select and "for" attribute in label, whenever we click on the label select field will got selected..if we dont give these attributes same then this will not happen-->
+                <option value="" selected>Choose...</option>
+                <option value="1">option1</option>
+                <option value="2">option2</option>
+                <option value="3">option3</option>
+            </select>
+        </div>
+        <br>
+
+        <h4 class="text-center text-decoration-underline">Custom file-input in input-group</h4>
+        <div class="input-group">
+            <input type="file" name="" class="form-control" id="same">
+            <label class="input-group-text" for="same">Upload</label>
+            <!-- to give "for" attribute in label and id same of input field is necessary -->
+        </div>
+        <hr>
+        <br>
+
+        <h3 class="text-center text-decoration-underline">Floating labels</h3>
+        <div class="form-floating  mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="placeholder-wave">
+            <label for="floatingInput">Email</label>
+            <!-- note: floating labels use krva mate input field ma "placeholder" attribute no use krsu to j e kaam krse. -->
+            <!-- note that only ek "form-floating" class ne lidhe placeholder ne bdle label ma je lkhie e as a placeholder dekhay , if we remove the class "form-floating" then we can say the text which we gave into the place holder instead of label" -->
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="" placeholder="namePlaceholder">
+            <label for="">Enter name</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control is-invalid" value="Just to understand the 'is-invalid' class"
+                placeholder="namePlaceholder">
+            <label for="">is-invalid</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="tel" name="" id="phone" class="form-control form-control-sm" placeholder="phone number">
+            <label for="phone">Phone number</label>
+        </div>
+        <div class="form-floating mb-3">
+            <select name="selectoption" id="sele" class="form-select" placeholder="select">
+                <option value="" selected>Select your position</option>
+                <option value="1">Angular developer</option>
+                <option value="2">.Net developer</option>
+                <option value="3">Full-stack developer</option>
+            </select>
+            <label for="sele">position</label>
+            <!-- note: always take label after the select tag..otherwise it will not work as aspected -->
+        </div>
+        <br>
+        <h4 class="text-start text-decoration-underline">form-floating with input groups</h4>
+        <div class="input-group">
+            <span class="input-group-text">+91</span>
+            <div class="form-floating">
+                <input type="tel" name="tel" id="new" class="form-control" placeholder="Enter phone number">
+                <label for="new">Enter Phone number</label>
+            </div>
+        </div>
+        <br>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">@</span>
+            <div class="form-floating is-invalid">
+                <input type="text" name="usrname" id="new2" placeholder="enter username"
+                    class="form-control is-invalid">
+                <label for="new2">Username</label>
+            </div>
+            <div class="invalid-feedback">
+                Enter valid Username
+            </div>
+        </div>
+        <!-- note that we have to give "is-invalid class with "form-floating" and "form-control" class otherwise "invalid-feedback will not work" -->
+
+        <div class="input-group ">
+            <span class="input-group-text">@</span>
+            <div class="form-floating is-invalid">
+                <input type="text" class="form-control is-invalid" id="floatingInputGroup2" placeholder="Username"
+                    required="">
+                <label for="floatingInputGroup2">Username</label>
+            </div>
+            <div class="invalid-feedback">
+                Please choose a username.
+            </div>
+        </div>
+
+        <br>
+
+        <h4 class="text-start text-decoration-underline">layout in fields</h4>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-floating mb-3">
+                    <input type="email" name="mail" id="abc" placeholder="email" value="abc@gmail.com"
+                        class="form-control">
+                    <label for="abc">Email</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <select name="abcd" id="abcd" class="form-select">
+                        <option value="">enter your choice</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <label for="abcd">Enter choice</label>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+
+        <h4 class="text-start text-decoration-underline">Complex layOut using gutters</h4>
+
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control">
+            </div>
+            <div class="col-md-6">
+                <label for="pass">password</label>
+                <input type="password" name="password" id="pass" class="form-control">
+            </div>
+            <div class="col-md-12">
+                <label for="add">Address</label>
+                <input type="text" name="" id="add" class="form-control">
+            </div>
+            <div class="col-md-12">
+                <label for="add">Address 2</label>
+                <input type="text" name="" id="add" class="form-control">
+            </div>
+            <div class="col-md-6">
+                <label for="city">City</label>
+                <input type="text" name="" id="city" class="form-control">
+            </div>
+            <div class="col-md-4">
+                <label for="opt">City</label>
+                <select name="" id="city" class="form-select">
+                    <option value="">Select Choice</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="Zip">Zip</label>
+                <input type="text" name="" id="Zip" class="form-control">
+            </div>
+            <div class="col-md-12">
+                <div class="form-check">
+                    <input type="checkbox" name="" id="choice" class="form-check-input">
+                    <label for="choice">Check me out</label>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="btn btn-primary">Sign in</div>
+            </div>
+        </form>
+
+        <br>
+
+        <form action="">
+            <div class="row">
+                <label for="name" class="form-check-label col-2">Name: </label>
+                <div class="col-sm-10">
+                    <input type="text" name="name" id="name" class="form-control">
+                </div>
+            </div>
+        </form>
+        <hr>
+        <br>
+
+        <h4 class="text-start text-decoration-underline">form with bootstrap validation</h4>
+
+        <form action="" class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+                <label for="fname">First Name</label>
+                <input type="text" name="name" id="fname" class="form-control is-valid" required>
+                <div class="valid-feedback">
+                    enter field.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="lname">Last Name</label>
+                <input type="text" name="name" id="lname" class="form-control" required>
+                <div class="invalid-feedback">
+                    enter field.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="uname">Username</label>
+                <div class="input-group">
+                    <span class="input-group-text">@</span>
+                    <input type="text" name="uname" id="uname" class="form-control" required>
+                    <div class="invalid-tooltip">
+                        enter field(invalid-tooltip).
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="city">City</label>
+                <input type="text" name="city" id="city" class="form-control" required>
+            </div>
+            <div class="col-md-4">
+                <label for="State">State</label>
+                <select name="state" id="state" class="form-select" required>
+                    <option value="">Choose</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <div class="invalid-feedback">
+                    enter field.
+                </div>
+            </div>
+            <div class="col-md-2">
+                <label for="zip">Zip</label>
+                <input type="text" name="zip" id="zip" class="form-control" required>
+                <div class="invalid-feedback">
+                    enter field.
+                </div>
+            </div>
+            <div class="col-md-12 ">
+                <div class="form-check">
+                    <input type="checkbox" name="check" id="" class="form-check-input" required>
+                    <label for="">Agree terms & Condi</label>
+                    <div class="invalid-feedback">
+                        enter field.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <button class="btn btn-primary">Submit form</button>
+            </div>
+        </form>
+        <hr>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        (() => {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+</body>
+
+</html>

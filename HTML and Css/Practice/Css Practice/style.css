@@ -1,0 +1,24 @@
+.div1 {
+  height: 200px;
+  width: 200px;
+  border: 1px solid yellow;
+  text-align: center;
+  position: relative;
+}
+.div1::after {
+  position: absolute;
+  content: "Helllooowwww";
+  background-color: red;
+  top: 0;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  scale: 0;
+  z-index: -1;
+  transition: all 0.7s;
+  border-radius: 10px;
+}
+.div1:hover::after {
+  scale: 1;
+  /* bottom: 0; */
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first jQuery Program</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            padding: 5px;
+        }
+
+        div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        button {
+            padding: 5px 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            color: white;
+            background-color: black;
+            cursor: pointer;
+        }
+
+        .addedClass {
+            font-size: 25px;
+            font-weight: 800;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>This text will be Hide after clicking the button.</p>
+        <button type="button" id="btn">Click!</button>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="first.js"></script>
+</body>
+
+</html>

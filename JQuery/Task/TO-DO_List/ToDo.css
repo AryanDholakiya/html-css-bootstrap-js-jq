@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  padding: 5px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Aladin", system-ui;
+  font-size: larger;
+}
+
+input[type="text"].border:focus {
+  border-color: yellowgreen !important;
+  letter-spacing: 1px;
+}
+table {
+  letter-spacing: 1px;
+}
+.col_index {
+  width: 70px;
+}
+.col_actions {
+  width: 200px;
+}
+.check_Task {
+  width: 70px;
+}
+/* table tr td {
+  vertical-align: center !important;
+  text-align: center;
+} */

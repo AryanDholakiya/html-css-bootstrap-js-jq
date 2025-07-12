@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert calss in Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- remix -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <h3>Different kind of alert box Meassages</h3>
+        <br>
+
+        <strong>success</strong>
+        <div class="alert alert-success">
+            <strong>Success!</strong> This kind of alert box indicates the success message.
+        </div>
+
+        <strong>danger</strong>
+        <div class="alert alert-danger">
+            <strong>Danger!</strong> This kind of alert indicates the dangerous messages.
+        </div>
+
+        <strong>info</strong>
+        <div class="alert alert-info">
+            <strong>Info!</strong> this kind of alert indicates some informative messages.
+        </div>
+
+        <strong>primary</strong>
+        <div class="alert alert-primary">
+            <strong>Primary!</strong> This kind of alert indicates the inportant messages.
+        </div>
+
+        <strong>warning</strong>
+        <div class="alert alert-warning">
+            <strong>Warning!</strong> This kind of alert indicates the Warning messages.
+        </div>
+
+        <strong>dark</strong>
+        <div class="alert alert-dark">
+            <strong>Dark!</strong> This is dark alert box.
+        </div>
+    </div>
+    <hr class="border border-3 border-success opacity-50">
+    <h3>Alert links in alert box.</h3>
+    <div class="container">
+        <br>
+
+        <strong>success</strong>
+        <div class="alert alert-success">
+            <strong>Success!</strong> you should have to <a href="#" class="alert-link">Read this.</a>
+        </div>
+
+        <strong>danger</strong>
+        <div class="alert alert-danger">
+            <strong>Danger!</strong> you should have to <a href="#" class="alert-link">Read this.</a>
+        </div>
+
+        <strong>info</strong>
+        <div class="alert alert-info">
+            <strong>Info!</strong> you should have to <a href="#" class="alert-link">Read this.</a>
+        </div>
+
+        <strong>primary</strong>
+        <div class="alert alert-primary">
+            <strong>Primary!</strong> you should have to <a href="#" class="alert-link">Read this.</a>
+        </div>
+
+        <strong>warning</strong>
+        <div class="alert alert-warning">
+            <strong>Warning!</strong> you should have to <a href="#" class="alert-link">Read this.</a>
+        </div>
+
+        <!-- note that ".alert-link" class in anchor tags. -->
+    </div>
+    <hr class="border border-3 border-danger opacity-50">
+    <div class="container">
+        <h3 class="text-center text-decoration-underline">Additional content</h3>
+        <div class="alert alert-success">
+            <h4 class="alert-header">Well Done!</h4>
+            <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit
+                longer so that you can see how spacing within an alert works with this kind of content.</p>
+            <hr>
+            <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+        </div>
+    </div>
+
+
+    <hr class="border border-3 border-danger opacity-50">
+    <div class="container">
+        <h1>Closing alerts</h1>
+        <br>
+
+        <div class="alert alert-success alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <!-- we have to add script of bootstrap to make this button working. -->
+            <strong>Success!</strong> you should have to <a href="#" class="alert-link">Read this!</a>
+        </div>
+        <div class="alert alert-danger alert-dismissible">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Danger!</strong> You should have to <a href="#" class="alert-link">Note this!</a>
+        </div>
+        <div class="alert alert-info alert-dismissible">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Info!</strong> you can get more <a href="#" class="alert-link">Information Here!</a>
+        </div>
+        <div class="alert alert-warning alert-dismissible">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Info!</strong> you should <a href="#" class="alert-link">read this!</a>
+        </div>
+        <div class="alert alert-dark alert-dismissible">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>basic!</strong> you can get more <a href="#" class="alert-link">basic knowledge Here!</a>
+        </div>
+    </div>
+    <hr class="border border-3 border-danger opacity-50">
+    <br>
+    <!-- Alerts with icons -->
+    <div class="container">
+        <h3 class="text-center text-decoration-underline">Alerts with icons</h3>
+        <div class="alert alert-warning">
+            <i class="ri-error-warning-fill"></i>
+            this is the alert with the icons.
+        </div>
+        <div class="alert alert-success">
+            <i class="ri-verified-badge-line"></i>
+            this is the alert sucess with icon.
+        </div>
+    </div>
+
+    <!-- Animating alerts: shows anmation on close -->
+    <hr class="border border-3 border-danger opacity-50">
+    <div class="container">
+        <h1>little Animation on closing alerts</h1>
+        <br>
+
+        <div class="alert alert-success alert-dismissible fade show">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <!-- we have to add script of bootstrap to make this button working. -->
+            <strong>Success!</strong> you should have to <a href="#" class="alert-link">Read this!</a>
+        </div>
+        <div class="alert alert-danger alert-dismissible fade show">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Danger!</strong> You should have to <a href="#" class="alert-link">Note this!</a>
+        </div>
+        <div class="alert alert-info alert-dismissible fade show">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Info!</strong> you can get more <a href="#" class="alert-link">Information Here!</a>
+        </div>
+        <div class="alert alert-warning alert-dismissible fade show">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Info!</strong> you should <a href="#" class="alert-link">read this!</a>
+        </div>
+        <div class="alert alert-dark alert-dismissible fade show">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>basic!</strong> you can get more <a href="#" class="alert-link">basic knowledge Here!</a>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

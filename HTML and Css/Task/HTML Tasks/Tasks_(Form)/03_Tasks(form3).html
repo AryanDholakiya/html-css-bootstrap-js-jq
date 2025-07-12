@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Task 3</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        background-color: skyblue;
+      }
+      h2 {
+        text-align: center;
+        margin: 20px;
+      }
+      form {
+        background: white;
+        margin: 0px 20% 0px 20%;
+        padding: 20px;
+      }
+      .paddi {
+        width: 100%;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>SignUp</h2>
+    <form action="">
+      <label for="Fullname">Full name: </label><br />
+      <input type="text" name="Fullname" class="paddi" required />
+      <br />
+      <br />
+
+      <label for="email">E-mail: </label><br />
+      <input type="email" name="email" class="paddi" required />
+      <br />
+      <br />
+
+      <label for="password">Password: </label>
+      <br />
+      <input type="password" class="paddi" name="password" required />
+      <br /><br />
+
+      <label for="gender">Gender: </label> <br />
+      <br />
+      <label for="male">Male: </label>
+      <input type="radio" name="gender" value="Male" />
+      <label for="female">Female: </label>
+      <input type="radio" name="gender" value="Female" />
+      <br /><br />
+
+      <label for="que">Security Question: </label> <br />
+      <br />
+      <select name="que" id="" class="paddi" required>
+        <option value="">Select any</option>
+        <option value="petname">What is your First pet name?</option>
+        <option value="song">What is your most fabourite song?</option>
+        <option value="sport">
+          which sport game is your favourite?
+        </option></select
+      ><br /><br />
+      <textarea name="ans" id="" rows="5" cols="109"></textarea>
+      <br /><br />
+
+      <input type="checkbox" name="terms" id="" required />
+      <label for="terms">I agree to accept terms and Condition.</label>
+      <br /><br />
+
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>

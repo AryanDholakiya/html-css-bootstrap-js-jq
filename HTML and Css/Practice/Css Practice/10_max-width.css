@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+h3 {
+  text-align: center;
+}
+.div1 {
+  max-width: 500px;
+  /* note */
+  margin: auto;
+  padding: 10px;
+  border: 1px solid green;
+  text-align: justify;
+}
+.div2 {
+  width: 500px;
+  /* note */
+  margin: auto;
+  padding: 10px;
+  border: 1px solid green;
+  text-align: justify;
+}

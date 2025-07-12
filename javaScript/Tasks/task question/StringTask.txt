@@ -1,0 +1,7 @@
+let mystring="       hello! everyone how are you? how can i help you?     ";
+
+Q1. find the index of "are".
+Q2. remove the white space in string.
+Q3. Capitalize the current string.
+Q4. find the last index of "how" also using indexof.
+Q5. cut the string only get "how can i help you?".

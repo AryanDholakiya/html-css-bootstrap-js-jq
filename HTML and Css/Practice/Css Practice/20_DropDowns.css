@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  margin: 20px;
+  line-height: 40px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  /* border: 1px solid black; */
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: antiquewhite;
+  color: red;
+  box-shadow: 2px 3px 5px black;
+  padding: 10px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Example 2 */
+.another {
+  position: relative;
+  display: inline-block;
+}
+.another-content {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  padding: 10px;
+  background-color: aquamarine;
+  color: blue;
+  box-shadow: 3px 2px 4px red;
+}
+
+.another:hover .another-content {
+  display: block;
+}
+
+/* Example 3 */
+.button-dropdown {
+  position: absolute;
+  display: inline-block;
+}
+.button-content {
+  display: none;
+  position: absolute;
+  background-color: #777;
+  color: orangered;
+  /* padding: 20px; */
+  min-width: 100%;
+  box-shadow: 3px 4px 5px black;
+  z-index: 1;
+  text-align: center;
+}
+.button-dropdown:hover .button-content {
+  display: block;
+}
+.dropdownBTN {
+  padding: 10px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.button-content a {
+  padding: 5px;
+  display: block;
+  background-color: #999;
+  text-decoration: none;
+  color: white;
+}
+.button-content a:hover {
+  background-color: #333;
+}

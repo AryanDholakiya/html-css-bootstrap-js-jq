@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effects in JQuery</title>
+    <link rel="stylesheet" href="JQ_Effects.css">
+</head>
+
+<body>
+    <!-- ex:1 Hide and Show -->
+    <h3 class="headings">Hide / show</h3>
+    <div class="main">
+        <button id="btn">Hide Div</button>
+        <p>Contact: Helen Bennett <br>
+            Garden House Crowther Way <br>
+            London
+        </p>
+    </div>
+
+    <!-- hide show example two -->
+    <div>
+        <button id="btn2">Show Div</button>
+    </div>
+
+    <!--giving time manually in slow while hiding element -->
+    <div class="div3">
+        <button id="btn3">Toggle (1 Second)</button>
+        <div class="paraDiv">
+            <p>This is the first paragraph.</p>
+            <p>This is the second paragraph.</p>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+
+
+
+    <!-- ex:2 Fade -->
+    <h3 class="headings">Fade</h3>
+
+    <button id="fadeIn">Fade-In</button>
+    <button id="fadeOut">Fade-Out</button>
+    <button id="fadeToggle">fade-Toggle</button>
+    <button id="fadeTo">fade-To</button>
+
+    <div class="boxesMain">
+        <div class="box1 box" style="background-color: red;"></div>
+        <div class="box2 box" style="background-color: green;"></div>
+        <div class="box3 box" style="background-color: blue;"></div>
+    </div>
+
+    <button id="startLoad">Start Loader</button>
+    <div id="loaderDots">
+        <span class="dot" style="background:red;"></span>
+        <span class="dot" style="background:green;"></span>
+        <span class="dot" style="background:blue;"></span>
+    </div>
+    <!-- <div id="progressBar" style="width: 0; height: 20px; background: green;"></div> -->
+    <br>
+    <hr>
+
+
+
+    <!-- ex:3 Slide -->
+    <h3 class="headings">Slide</h3>
+
+
+    <div class="slide_head">
+        Click to Slide Down
+    </div>
+    <div class="slider">
+        This is a slider
+    </div>
+    <br>
+    <hr>
+
+
+
+
+    <!-- ex:4 Animate -->
+    <button id="animation">Click to show animation</button>
+    <button id="animation2">Animation 2</button>
+    <button id="animation3">Animation Using Relative values</button>
+    <button id="animation4">Using Queue Functinality</button>
+    <button id="animation5">Using Predefined values</button>
+    <button id="animation6">Animation 6</button>
+    <div class="animatedDiv">Hello</div>
+    <br>
+    <hr>
+
+
+
+
+    <!-- ex:5 stop -->
+    <h3 class="headings">Stop</h3>
+    <button id="stop">Stop</button>
+    <div class="slider2Btn">Click To Slide Down</div>
+    <div class="slider2">
+        <p class="slider2P">Slider 2</p>
+    </div>
+    <br>
+    <hr>
+
+
+
+
+    <!-- ex:6 chaining -->
+    <h3 class="headings">Chaining</h3>
+    <p class="chaining">First line of chaining paragraph. <br>
+        second line of chaining paragraph. </p>
+    <button id="chaining">Chaining</button>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="JQ_Effects.js"></script>
+</body>
+
+</html>

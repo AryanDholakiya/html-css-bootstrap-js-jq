@@ -1,0 +1,26 @@
+h2 {
+  text-decoration: underline;
+}
+
+/* Descendant Selcetor(space) */
+div p {
+  color: red;
+}
+
+/* Child Selector(selects all elements that are the children of a specified
+      element) */
+div.childSelector > p {
+  font-weight: 900;
+  color: blue;
+}
+
+/* Next Sibling Combinator(+) Or Adjacent Sibling Selector */
+div.nextSibling + p {
+  color: rgb(42, 165, 79);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* General Sibling Selector(~) */
+div.generalSibling ~ p {
+  color: chocolate;
+  font-size: 30px;
+}

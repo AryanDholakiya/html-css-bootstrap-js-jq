@@ -1,0 +1,12 @@
+a[target] {
+  color: red;
+  background-color: black;
+}
+
+a[target="_self"] {
+  color: yellow;
+  background-color: red;
+}
+img[class~="hello"] {
+  border: 2px solid black;
+}

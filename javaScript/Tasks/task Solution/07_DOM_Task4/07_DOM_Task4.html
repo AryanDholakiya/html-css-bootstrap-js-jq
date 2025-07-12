@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio and Checkboxes in DOM</title>
+    <link rel="stylesheet" href="07_DOM_Task4.css">
+</head>
+
+<body>
+    <div class="main">
+        <form action="" id="form">
+            <fieldset>
+                <legend>Radio and CheckBox Validation</legend>
+                <div class="radioSection">
+                    <label for=""> <b>GENDER:</b> </label>
+                    <div class="radios">
+                        <input type="radio" name="gender" id="Male" class="gen" value="Male"> Male
+                        <input type="radio" name="gender" id="Female" class="gen" value="Female"> Female
+                        <input type="radio" name="gender" id="Other" class="gen" value="Other"> Other
+                    </div>
+                    <p id="radioError" style="color: red;"></p>
+                </div>
+                <br>
+                <div class="checkSection">
+                    <label for=""> <b>Technology:</b> </label>
+                    <div class="checks">
+                        <div class="column">
+                            <label><input type="checkbox" value="react" id="React" class="special"> React</label>
+                            <label><input type="checkbox" value="node" id="Node" class="special"> Node</label>
+                        </div>
+                        <div class="column">
+                            <label><input type="checkbox" value="angular" id="Angular" class="special"> Angular</label>
+                            <label><input type="checkbox" value="dotnet" id="DotNET" class="special"> Dot NET</label>
+                        </div>
+                    </div>
+                    <p id="CheckError" style="color: red;"></p>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="submit">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+
+    <script src="07_DOM_Task4.js"></script>
+</body>
+
+</html>

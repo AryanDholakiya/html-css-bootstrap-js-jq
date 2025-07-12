@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="stopwatch.css">
+    <link rel="icon" href="stopwatch.png">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="submain">
+            <div id="hour">
+                <div class="special">
+                    <h1 id="showHour">00</h1>
+                    <h3>Hr</h3>
+                </div>
+            </div>
+            <div id="minute">
+                <div class="special">
+                    <h1 id="showMin">00</h1>
+                    <h3>Min</h3>
+                </div>
+            </div>
+            <div id="second">
+                <div class="special">
+                    <h1 id="showSec">00</h1>
+                    <h3>Sec</h3>
+                </div>
+            </div>
+            <div id="millisecond">
+                <div class="special">
+                    <h1 id="showMilliSec">00</h1>
+                    <h3>Milli</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="btn" class="start" onclick="start()">Start</button>
+            <button id="btn" class="stop" onclick="stop()">Stop</button>
+            <button id="btn" class="clear" onclick="clearall()">Reset</button>
+            <script src="stopwatch.js"></script>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

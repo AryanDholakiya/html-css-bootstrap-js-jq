@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100vh;
+            width: 100vw;
+            /* background-color: rgb(154, 198, 236) !important; */
+            padding: 5px;
+        }
+
+        button {
+            padding: 5px;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button onclick="geturl()">Get URL!</button>
+    <p id="url"></p>
+    <p id="windowHeight"></p>
+    <p id="windowWidth"></p>
+    <br>
+
+    <button onclick="clickIt()">Click!</button>
+    <button onclick="windowPrompt()">windowPrompt!</button>
+
+    <!-- redirect to another page -->
+    <button onclick="redirect()">SearchOnGoogle!</button>
+
+    <br><br>
+    <!-- assing new window location -->
+    <button onclick="assingnewlocation()">Open Another Page</button>
+
+    <br><br>
+
+    <!-- window.history -->
+    <button onclick="GoBack()">Back</button>
+    <button onclick="GoForward()">Forward</button>
+
+    <br><br>
+    <!-- cleartimout -->
+    <button onclick="StartTimeout()">CleartimoutShowAlert</button>
+    <button onclick="cleartimeout2()">StopToShowAlert</button>
+
+    <br><br>
+    <!-- clearinterval -->
+    <h3 id="showTime"></h3>
+    <button onclick="StartTime()">Start Watch</button>
+    <button onclick="stopTime()">Stop</button>
+
+
+    <script src="24_BOM.js"></script>
+</body>
+
+</html>

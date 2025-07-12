@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Task 2</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Emloyee Details</legend>
+        <label for="Fname">First name: </label>
+        <input type="text" name="Fname" required />
+        <br />
+        <br />
+
+        <label for="Lname">Last name: </label>
+        <input type="text" name="Lname" required />
+        <br />
+        <br />
+
+        <input type="radio" name="gender" value="Male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female" required />
+        <label for="female">Female</label>
+        <br />
+        <br />
+
+        <label for="EmpId">Employee Id: </label>
+        <input type="text" name="EmpId" required />
+        <br />
+        <br />
+
+        <label for="designation">Designation: </label>
+        <input type="text" name="designation" required />
+        <br />
+        <br />
+
+        <label for="phone">Phone Number: </label>
+        <input type="tel" name="phone" pattern="[0-9]{10}" required />
+        <br />
+        <br />
+
+        <input type="submit" value="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>

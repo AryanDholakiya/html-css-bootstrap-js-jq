@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.heading {
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(110, 110, 110);
+  color: white;
+}
+button {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
+}
+#btn_white {
+  background-color: white;
+}
+#btn_purple {
+  background-color: rgb(187, 60, 219);
+}
+#btn_blue {
+  background-color: dodgerblue;
+}
+#btn_pink {
+  background-color: rgb(243, 47, 145);
+}
+.content {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin-top: 100px; */
+  /* padding: 170px 100px; */
+}
+#picture img {
+  height: 250px;
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.description p {
+  text-align: justify;
+  font-size: 18px;
+}
+.header_btns button.active {
+  transform: scale(1.2);
+  border: 2px double #000000a8;
+}

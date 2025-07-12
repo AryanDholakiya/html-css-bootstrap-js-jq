@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 20px solid dodgerblue;
+  padding: 50px 30px;
+}
+.fields {
+  padding: 10px 30px;
+  margin-top: 15px;
+  border: 1px solid black;
+  width: 100%;
+}
+.subbtn {
+  background-color: rgb(23, 107, 190);
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+}
+p {
+  color: red;
+  height: 10px;
+}

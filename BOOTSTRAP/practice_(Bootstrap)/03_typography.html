@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography/Text</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        Normal Headings in Bootstrap
+        <h4>h1 in bootstrap</h1>
+            <h2>h2 in bootstrap</h2>
+            <h3>h3 in bootstrap</h3>
+    </div>
+    <br>
+    <div class="container">
+        we can also give heading classes to the para tag in bootstrap.
+        <p class="h1">h1 class in bootstrap</p>
+        <p class="h2">h2 class in bootstrap</p>
+        <p class="h3">h3 class in bootstrap</p>
+    </div>
+    <br>
+    <div class="container">
+        display headings in Bootstrap
+        <h1 class="display-1">h1 in bootstrap</h1>
+        <h2 class="display-2">h2 in bootstrap</h2>
+        <h3 class="display-3">h3 in bootstrap</h3>
+        <!-- h1 h2 h3 ne bdle p tag no use krisu display ma to bhi same font size and font weight rese. -->
+        <!-- "display" are bigger in size and have lighter font-weight -->
+    </div>
+
+    <hr>
+
+    <h4>alignment of paragraph.</h4>
+
+    <div class="container">
+        <p class="text-start">Left-aligned text.</p>
+        <p class="text-end">right-aligned text.</p>
+        <p class="text-center">Left-aligned text.</p>
+        <p class="text-nowrap">This text will
+            neeeeeeeeeeeeeeeeeeevvvvvvvvvvvvvvveeeeeeeeeeerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+            going to wrap.
+        </p>
+    </div>
+    <hr>
+
+    <div class="container">
+        <h4 class="ms-2">text-break</h4>
+        <h6 class="ms-2">without ".text-break"</h6>
+        <p>AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+        </p>
+    </div>
+    <div class="container">
+        <h6 class="ms-2">with ".text-break"</h6>
+        <p class="text-break">
+            AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+        </p>
+    </div>
+    <hr>
+
+    <div class="container">
+        <h6>text decoration none in bootstrap</h6>
+        <a href="https://www.google.com" class="text-decoration-none">Go to Google</a>
+    </div>
+    <hr>
+
+    <div class="container">
+        <h6>lowercase,UPPERCASE and capitalize</h6>
+        <p class="text-lowercase">THIS IS THE LOWERCASE CLASS.</p>
+        <p class="text-uppercase">this is the uppercase class.</p>
+        <p class="text-capitalize">thIs wiLL caPitalIze the TeXt. first character will be capital..rest are as it is.
+        </p>
+    </div>
+    <hr>
+
+    <div class="container">
+        <h6>List Unstyled & list-inline in bootstrap</h6>
+        <strong>normal list</strong>
+        <ul>
+            <li>mango</li>
+            <li>apple</li>
+            <li>orange</li>
+        </ul>
+        <h6>list-unstyled</h6>
+        <ul class="list-unstyled">
+            <li>mango</li>
+            <li>apple</li>
+            <li>orange</li>
+        </ul>
+        <strong>list-inline: The class .list-inline places all list items on a single line, when used together with the
+            .list-inline-item</strong>
+        <ul class="list-inline">
+            <li class="list-inline-item">mango</li>
+            <li class="list-inline-item">apple</li>
+            <li class="list-inline-item">orange</li>
+            <!-- note here in "li", we have to use the list-inline-item if we used a list-inline -->
+        </ul>
+    </div>
+
+    <hr class="border border-3 border-danger opacity-50">
+    <strong class="ms-2">From Bootstrap link</strong>
+
+    <div class="container">
+        <strong>stand out by using the ".lead" in paragraph.</strong>
+        <p>This is the example of the normal paragraph.</p>
+        <p class="lead">This is the example of how paragraph looks after using the "lead".</p>
+    </div>
+
+    <hr class="border border-3 border-danger opacity-50">
+
+    <div class="container">
+        <p class="mark">example of "mark" class.</p>
+        <p class="small">example of "small" class.</p>
+        <p class="text-decoration-underline">example of text-decoration-underline CLASS.</p>
+        <p class="text-decoration-line-through">example of text-decoration-line-through.</p>
+    </div>
+</body>
+
+</html>

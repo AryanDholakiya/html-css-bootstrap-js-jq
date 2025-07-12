@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: rgb(154, 198, 236); */
+}
+.confirmationText,
+#data {
+  padding: 7px 10px;
+  color: red;
+}
+.speDIV {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  visibility: hidden;
+}
+#popUpDiv {
+  height: auto;
+  /* visibility: hidden; */
+  padding-bottom: 60px;
+  width: 500px;
+}
+
+.btnDIV {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}

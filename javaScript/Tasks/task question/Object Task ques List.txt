@@ -1,0 +1,15 @@
+// Key - Value Pair
+
+1. Get all the Keys starting from 2
+
+2. Get all the Keys starting from 1
+
+3. Get all numbers from the Object
+
+4. Get all falsy values from Object
+
+5. Get all string from Object
+
+6. Get all LOW values from Object
+
+7. Get all values which has space in it

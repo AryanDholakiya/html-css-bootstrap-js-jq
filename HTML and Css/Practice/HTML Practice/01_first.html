@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First</title>
+    <link rel="icon" type="icon" href="img/html5 icon.gif">
+    <style>
+        .linkColor{
+            color:red;
+            text-decoration: overline;
+        }
+        .linkColor:hover{
+            color:yellow;
+            text-decoration: underline;
+        }
+        .linkColor:visited{
+            color: green;
+        }
+        .linkColor:active{
+            color: purple;
+        }
+
+        .styleLink{
+            padding: 10px;
+            background-color: red;
+            /* margin-bottom: 10px; */
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Heading of the html</h1>
+    <p>
+      this is the para tag. Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Commodi veritatis vel distinctio, dolorem sunt alias laborum
+      dignissimos veniam at laudantium corrupti repudiandae debitis provident
+      expedita deleniti reprehenderit quisquam reiciendis eius.
+    </p>
+
+    <h4>links in html:</h4>
+    <a href="https://www.google.com/">go to Google</a>
+
+    <h4>images in html:</h4>
+
+    <!-- img using absolute path -->
+    <img
+      src="img/imgForCiteTag.jpg"
+      alt="logo of w3schools"
+      height="100px"
+    />
+    <br />
+    <!-- img using relative path -->
+    <img src="img/imgForRelative.jpg" alt="relative path example" height="200px" />
+    <br />
+
+    <!-- inline css: -->
+    <p style="background-color: red; color: white">example of inline css.</p>
+    <p
+      style="
+        background-color: red;
+        color: white;
+        font-size: 200%;
+        font-family: 'Courier New', Courier, monospace;
+      "
+    >
+      example of inline css.
+    </p>
+
+    <!-- headings in html -->
+    <h2 style="font-size: 20px">Heading 2 with font-size 20px</h2>
+
+    <!-- para tag: -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+      reiciendis molestias, quasi eaque nostrum accusamus quidem corporis ad
+      necessitatibus eius quis soluta, repellat fuga aperiam veritatis nulla?
+      Libero, corporis dolorum!
+    </p>
+    <hr />
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat esse
+      fugit culpa animi ex, distinctio quas, at, optio labore praesentium
+      laboriosam sint quisquam quod eveniet itaque dolorem soluta tempore maxime
+      ad laborum eos! Magnam ut ex impedit ad obcaecati necessitatibus?
+    </p>
+    <hr />
+    <!-- pre tag: -->
+    <pre>
+        this is  
+          the pre tag
+        it shows the text as we want to show.
+     </pre
+    >
+
+    <p>this is the <b>bold</b> text.</p>
+    <p>
+      this is the example of subscript : H<sub>2</sub>O &nbsp; and superscript:
+      a<sup>2</sup>+b<sup>2</sup>
+    </p>
+    <p>this is the <strong>strong</strong> text. same as the bold.</p>
+    <p>
+      this is the <i><b>italic</b></i> text.
+    </p>
+    <p>
+      this is the <em><b>emphasized</b></em> text. same as italic
+    </p>
+    <p>this is the <mark>marked</mark> tag.</p>
+    <p>this is the <small>small</small> tag.</p>
+    <p>this is the <del>delete</del> tag.</p>
+    <p>this is the <ins>inserted</ins> tag.</p>
+    <br />
+    <p>example of blockquote tag:</p>
+    <blockquote>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+      dignissimos itaque asperiores eius tempore eveniet, corporis beatae
+      distinctio alias illum eligendi debitis voluptates placeat recusandae quos
+      possimus. Unde molestiae dolor delectus itaque iure, totam cum similique!
+      Velit, dicta eius! Fugiat.
+    </blockquote>
+    <p>
+      example of q tag: it usually adds a quote arround word or any other like
+      <q>this is quatation.</q>
+    </p>
+    <p>
+      example of abbr tag: WTO stands for the
+      <abbr title="WTO">World Trade Center</abbr>.
+    </p>
+    <p>example of address tag: shows the contact info about the author.
+        <address>A-123, abc society,surat. <br>
+            pincode:390999.<br>
+            abc@gmail.com
+        </address>
+    </p>
+    <h4>cite tag example:</h4>
+    <img src="img/imgForCiteTag.jpg" height="100px" alt="Monalisa">
+    <br>
+    <cite>Img by: Leonardo the vinci</cite><hr>
+    <br>
+    <bdo dir="rtl">right to left.</bdo><br> 
+    <bdo dir="ltr">left to right.</bdo>
+
+    <br>
+    <hr>
+    <h4>Links:</h4>
+    <p>link for go to google. Example of absolute URl.</p>
+    <a href="https://www.google.com" target="_blank">Google</a><br>
+    <!-- <a href="https://www.google.com" target="_parent">Google</a><br>
+    <a href="https://www.google.com" target="_top">Google</a><br> -->
+    <br>
+    <p>Example of Relative URl.</p>
+    <a href="second.html">Go to Second Page.</a>
+    <br>
+    <p>using an image as link:</p>
+    <a href="https://www.google.com" target="_blank"><img src="img/imgForAnchorTaf.png" height="40px"  alt="Img for hyper link"></a>
+    <br>
+    <p>Send a mail:</p>
+    <a href="mailto:abc80@gmail.com">Send Mail to Me.</a>
+    <br>
+    <p>button as a link:</p>
+    <button onclick="document.location='https:/www.google.com'">click</button>
+    <!-- note that single quote in document.location -->
+    <p>link title:
+        <a href="https://www.google.com" title="link to open google">link with tooltip</a>
+    </p>
+    <br>
+    <h4>change the link color according to visited, unvisited,active etc...</h4>
+    <a href="https://www.google.com"  class="linkColor" title="link color">google</a>
+    <br>
+    <p>creating link as button using css:</p>
+    <a href="https://www.google.com" class="styleLink">Google</a>
+    <hr>
+    <h4>BookMarks in webpage:</h4>
+    <pre>BookMarks are usefull if our webpage is too long.
+we have to give a id to the specific portion and after it we have to provide this id to hyperlink.
+    </pre>
+    <a href="#five">Go to portion 5</a>
+    <h5>This is Portion 1</h5>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam maiores cum est, omnis assumenda debitis enim magnam voluptates, ratione animi quae. Alias eveniet velit praesentium asperiores, vel at voluptatibus unde!</p>
+    <h5>This is Portion 2</h5>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam maiores cum est, omnis assumenda debitis enim magnam voluptates, ratione animi quae. Alias eveniet velit praesentium asperiores, vel at voluptatibus unde!</p>
+    <h5>This is Portion 3</h5>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam maiores cum est, omnis assumenda debitis enim magnam voluptates, ratione animi quae. Alias eveniet velit praesentium asperiores, vel at voluptatibus unde!</p>
+    <h5 id="five">This is Portion 5</h5>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam maiores cum est, omnis assumenda debitis enim magnam voluptates, ratione animi quae. Alias eveniet velit praesentium asperiores, vel at voluptatibus unde!</p>
+    <h5>This is Portion 6</h5>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam maiores cum est, omnis assumenda debitis enim magnam voluptates, ratione animi quae. Alias eveniet velit praesentium asperiores, vel at voluptatibus unde!</p>
+    <h5>This is Portion 7</h5>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam maiores cum est, omnis assumenda debitis enim magnam voluptates, ratione animi quae. Alias eveniet velit praesentium asperiores, vel at voluptatibus unde!</p>
+    <h5>This is Portion 8</h5>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam maiores cum est, omnis assumenda debitis enim magnam voluptates, ratione animi quae. Alias eveniet velit praesentium asperiores, vel at voluptatibus unde!</p>
+   <hr>
+   
+  </body>
+</html>

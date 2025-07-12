@@ -1,0 +1,587 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --orange: #ff4a17;
+}
+
+/* navbar of header */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.699);
+  position: relative;
+  z-index: 1000;
+}
+
+.forhover,
+.forhover2 {
+  position: relative;
+}
+.hovereditems {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(1rem);
+}
+.hovereditems2 {
+  /* display: block !important;
+  visibility: hidden !important; */
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+  /* transform: translateY(2rem); */
+}
+.forhover2:hover .special {
+  color: var(--orange);
+}
+.forhover:hover .hovereditems {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0.2rem);
+}
+.forhover2:hover .hovereditems2 {
+  display: block !important;
+  opacity: 1;
+  visibility: visible;
+  position: absolute;
+  right: 101%;
+  top: 0%;
+  /* transform: translateY(2rem); */
+}
+/*header dropdown hover effect end */
+
+.nav-link {
+  font-size: 13px !important;
+}
+
+.GETSTARTBTN {
+  background-color: transparent;
+  font-size: 13px !important;
+  transition: all 0.4s ease-in-out;
+  /* transition property "!important" keyword ma proper work na kre so, we removed the calss "btn" from GET STARTED button so it works perfectly*/
+  padding: 7px;
+  border: 1px solid white;
+}
+.GETSTARTBTN:hover {
+  border: 1px solid transparent;
+  background-color: var(--orange) !important;
+}
+
+.nav-link:hover {
+  color: var(--orange) !important;
+}
+
+.brdrBTM {
+  position: relative;
+  display: inline-block;
+}
+.brdrBTM::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  border-bottom: 2px solid var(--orange);
+  width: 0%;
+  transition: all 0.5s ease-in-out;
+}
+.brdrBTM:hover::after {
+  width: 100%;
+  /* border-bottom: 2px solid ; */
+}
+.dropdown-menu a {
+  transition: all 0.5s ease;
+}
+.dropdown-menu a:hover {
+  color: var(--orange) !important;
+}
+
+/* bg image */
+.image {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.699));
+  z-index: 1;
+}
+.image img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 0;
+}
+/* bg image end*/
+
+/* centered text in background image */
+.centered-text {
+  z-index: 999;
+}
+.ri-play-circle-line {
+  color: var(--orange);
+  font-weight: 100;
+  font-size: 40px;
+}
+.watch_video_text {
+  transition: all 0.5s ease;
+}
+.watch_video_text:hover {
+  color: var(--orange);
+}
+.watch_video_text:hover .ri-play-circle-line {
+  opacity: 0.5;
+}
+.Middle_btn {
+  padding: 7px 30px;
+  background-color: var(--orange);
+  color: white;
+  border: none;
+  transition: all 0.5s ease;
+}
+.Middle_btn:hover {
+  opacity: 0.7;
+}
+/* centered text in background image end*/
+
+/* right side list part */
+ul {
+  list-style-position: outside !important;
+}
+.list-unstyled li {
+  position: relative;
+  padding: 4px 30px;
+}
+.firstUL li > i {
+  position: absolute;
+  left: 0;
+  padding: 3px;
+  border-radius: 50%;
+  background-color: var(--orange);
+  color: white;
+  font-size: 12px;
+}
+
+.play_icon {
+  position: absolute;
+  padding: 0px 15px;
+  background-color: var(--orange);
+  border-radius: 11px;
+  z-index: 999;
+  /* outline: 2px solid yellow;
+  animation: ring 1.5s ease-in-out alternate infinite; */
+}
+
+.play_icon::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: #ff4917a6;  */
+  outline: 3px solid var(--orange);
+  z-index: 1;
+  opacity: 0;
+  border-radius: 9px;
+  animation: ring 1.5s ease-in-out alternate-reverse infinite;
+}
+.play_icon::before {
+  position: absolute;
+  content: "\f508";
+  font-family: "remixicon" !important;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  width: 135%;
+  height: 135%;
+  transform: translate(-12%, -12%) scale(1);
+  background-color: #ff491746;
+  z-index: -1;
+  border-radius: 9px;
+}
+@keyframes ring {
+  0% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+  25% {
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.6;
+  }
+  75% {
+    transform: scale(1.18);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+.ri-play-large-fill {
+  display: inline-block;
+  /* scale: 1.5; */
+  transition: all 0.4s ease-in-out;
+  position: relative;
+}
+
+.play_icon:hover .ri-play-large-fill {
+  transform: scale(3) !important;
+  opacity: 0;
+}
+
+.play_icon:hover .ri-play-large-fill::before {
+  width: 100%;
+  height: 100%;
+}
+
+/* right side list part end*/
+
+.i_tag {
+  color: var(--orange);
+  font-size: 45px;
+}
+.square {
+  padding: 20px 30px;
+  /* background-color: red;  */
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1), 0px 0 30px rgba(0, 0, 0, 0.1);
+}
+
+/* service section  */
+.service_section hr,
+.portfolio_section hr,
+.Team_section hr,
+.Contact_section hr {
+  border: 1px solid var(--orange);
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.scaleImg {
+  overflow: hidden;
+  /* overflow hidden image scale time prr bar jtta content ne atkavse */
+  border-radius: 15px;
+}
+
+.scaleImg img {
+  transition: all 0.5s ease;
+  display: block;
+}
+
+.scaleImg:hover img,
+.super:hover .scalingImg {
+  transform: scale(1.2);
+}
+
+.super {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  margin-bottom: 180px;
+}
+/* .super :not(:last-child) {
+  margin-bottom: 180px;
+} */
+
+.sub-super {
+  position: absolute;
+  left: 50%; /* Position the left edge of the div in the center */
+  top: 70%;
+  transform: translateX(
+    -50%
+  ); /* Offset it back by half its width to truly center */
+  z-index: 99;
+  border-radius: 18px;
+  text-align: justify;
+  text-align-last: center;
+  background-color: white;
+  padding: 50px 40px;
+  width: 80%; /* You can adjust the width as needed */
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1), 0px 0 30px rgba(0, 0, 0, 0.1);
+}
+.sub-super h5 {
+  transition: all 0.4s ease;
+}
+.super:hover .sub-super h5 {
+  color: var(--orange);
+}
+
+/* .speIcon i {
+  border-radius: 50%;
+  font-size: 25px;
+  padding: 15px;
+  background-color: var(--orange);
+  color: white;
+  transition: all 0.4s ease-in-out;
+} */
+
+.speIcon {
+  z-index: 100;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 56%;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  border-radius: 50%;
+  font-size: 25px;
+  padding: 15px 20px;
+  /* background-color: white; */
+  background-color: var(--orange);
+  color: white;
+  border: 6px solid white;
+  transition: all 0.4s ease-in-out;
+}
+.super:hover .speIcon {
+  background-color: white;
+  color: var(--orange);
+  border: 2px solid var(--orange);
+  transform: scaleX(1.5), scaleY(1.5);
+}
+
+.iconsDiv {
+  margin-bottom: 100px;
+}
+.serviceSuperrow {
+  margin-bottom: 50px;
+}
+.clienticon {
+  border-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clienticon img {
+  /* max-width: 90%; */
+  padding: 20px 35px;
+  opacity: 0.5;
+  filter: grayscale(100);
+  transition: all 0.5s ease-in-out;
+}
+
+.clienticon:hover img {
+  opacity: 1;
+  filter: grayscale(0);
+}
+
+.content2 {
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1), 0px 0 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.9s ease;
+}
+.content2 i {
+  font-size: 60px;
+  transition: all 0.9s ease;
+}
+.content2 p {
+  font-size: 20px;
+}
+
+.content2:hover {
+  border: 1px solid var(--orange);
+}
+
+.content2:hover i {
+  color: var(--orange);
+}
+
+.clienticon .speciHeight {
+  height: 100px;
+  overflow: hidden;
+}
+.CHECKOURSERVICESTopMargin {
+  margin-top: 80px;
+}
+.square2 {
+  border: 1px solid transparent;
+  transition: all 1s ease;
+}
+.square2:hover {
+  border: 1px solid var(--orange);
+}
+.square2:hover h4 {
+  color: var(--orange);
+}
+
+.speciContainerFluid {
+  position: relative;
+  width: 100%;
+  background-image: url(imagges/bg\ second.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  /* to show our carousel on top of the overlay */
+}
+.carouselImgDiv {
+  margin-bottom: 100px;
+}
+
+.carousel_Img {
+  height: 120px;
+  width: 120px;
+  border: 7px solid gray;
+  border-radius: 50%;
+}
+.carousel-item {
+  margin-top: 100px;
+}
+
+/* .carousel-caption {
+  bottom: 3rem !important;
+  font-size: 20px;
+  margin-top: 20px !important;
+} */
+
+.bi-star-fill {
+  color: #ffc107;
+}
+
+/* note that we can make overlay like this also. without before and after. */
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.designation {
+  color: lightgray;
+}
+
+/* styling carousel-indicators */
+.carousel-indicators [data-bs-target] {
+  height: 13px !important;
+  width: 13px !important;
+  border-radius: 50% !important;
+}
+/* it's necessary to add the "[data-bs-target]" during giving the css to indicators otherwise it will not look */
+.CarouselPARA {
+  padding: 0px 20px !important;
+}
+
+#carousel2 .carousel-inner {
+  height: 500px; /* Set this to your desired height */
+  overflow: hidden; /* Hide overflow if needed */
+  position: relative;
+}
+
+.carousel-item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* portfolio section */
+
+.navlinkSpecial {
+  font-size: 16px !important;
+  cursor: pointer;
+}
+
+.content3 img {
+  transition: all 0.5s ease;
+}
+.content3:hover img {
+  transform: scale(1.2);
+}
+.content3 {
+  overflow: hidden;
+}
+.overlayPortfoIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+.itemITEM {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.content3:hover .itemITEM {
+  opacity: 1;
+  z-index: 99;
+}
+
+/* very short method to for this kind of situation. check team section and check "short" portion */
+.teamAbso {
+  width: 85%;
+  top: 80%;
+  padding: 10px;
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1), 0px 0 30px rgba(0, 0, 0, 0.1);
+}
+/* very short method to for this kind of situation. check team section and check "short" portion : end */
+.image {
+  height: 90%;
+}
+
+.Contact_section {
+  margin-top: 100px;
+}
+
+.bi-geo-alt,
+.bi-telephone,
+.bi-envelope {
+  border: 3px dotted var(--orange);
+  border-radius: 50%;
+}
+.icon-wrapper {
+  padding: 1rem;
+}
+
+.formSubmit {
+  background-color: var(--orange) !important;
+}
+
+.footer i {
+  transition: all 0.6s ease;
+  border: 1px solid gray;
+}
+.footer i:hover {
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+.footer i:hover {
+  color: var(--orange);
+}
+.footerUl li{
+  padding-left: 3px !important;
+}

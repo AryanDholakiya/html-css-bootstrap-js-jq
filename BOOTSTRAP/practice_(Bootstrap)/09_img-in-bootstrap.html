@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images using Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mt-3">
+
+        <strong>.rounded calss</strong>
+        <img src="https://www.w3schools.com/bootstrap5/cinqueterre.jpg" alt="" class="rounded-5 border border-success">
+        <br>
+
+        <strong>.rounded-circle class</strong>
+        <img src="https://www.w3schools.com/bootstrap5/cinqueterre.jpg" alt="" height="300px" width="300px"
+            class="rounded-circle border border-success mt-3">
+        <br>
+
+        <strong>.img-thumbnail class</strong>
+        <img src="https://www.w3schools.com/bootstrap5/cinqueterre.jpg" alt="" class="img-thumbnail my-3">
+        <br>
+
+        <strong>Centered Image> .d-block .mx-auto</strong>
+        <img src="https://www.w3schools.com/bootstrap5/cinqueterre.jpg" alt=""
+            class="d-block mx-auto border border-primary rounded-3  my-3">
+        <br>
+
+        <strong>.img-fluid class</strong>
+        <br>
+        <img src="https://www.w3schools.com/bootstrap5/cinqueterre.jpg" alt=""
+            class="img-fluid d-block mx-auto border border-success img-thumbnail my-3" width="100%" height="200px">
+    </div>
+    <!-- img ne height nai laagti
+
+    ans >  it's because of Bootstrap’s .img-fluid class. height: auto of .img-fluid overrides the height="200px" that you set in the HTML attribute, because CSS rules generally take precedence when applied directly via a class.
+
+    >ussually .img-fluid means:
+    .img-fluid {
+         max-width: 100%;
+         height: auto;
+    } 
+         
+    we can give inline style. llike style = "height: 200px;"
+    -->
+</body>
+
+</html>

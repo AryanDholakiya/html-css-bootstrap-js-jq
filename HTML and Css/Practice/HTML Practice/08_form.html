@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="icon" href="img/html5 icon.gif" />
+  </head>
+  <style>
+    textarea {
+      resize: none;
+    }
+  </style>
+  <body>
+    <form action="" novalidate>
+      <label for="name">Name:</label>
+      <br />
+      <input
+        type="text"
+        name="name"
+        id="name"
+        value="ABC"
+        autofocus
+        required
+      /><br /><br />
+
+      <label for="bd">Enter your DOB: </label>
+      <br />
+      <input type="date" name="dob" id="" min="2000-01-01" max="2025-03-12" />
+      <input
+        type="datetime-local"
+        name="dob"
+        id=""
+        min="2000-01-01"
+        max="2025-03-12"
+        required
+      />
+      <br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="" required />
+      <br /><br />
+      <label for="gender">Gender:</label>
+      <br />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" value="Male" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" value="Female" />
+      <br /><br />
+
+      <label for="hobby">Hobbies:</label><br />
+      <label for="reading">reading</label>
+      <input type="checkbox" name="reading" id="" />
+      <label for="travelling">travelling</label>
+      <input type="checkbox" name="travelling" id="" />
+      <label for="dancing">dancing</label>
+      <input type="checkbox" name="dancing" id="" />
+      <br /><br />
+
+      <label for="pass">Password:</label><br />
+      <input type="password" name="passs" id="" /><br /><br />
+      <label for="course">Select a course</label>
+      <br />
+      <select name="course" id="course">
+        <option value="">select any</option>
+        <option value=".net">.net</option>
+        <option value="Angular">Angular</option>
+        <option value="React">React</option>
+        <option value="other">other</option>
+      </select>
+
+      <p>example of optgroup:</p>
+
+      <select name="course3" id="">
+        <option value="">select course from multiple courses</option>
+        <optgroup label="frontend courses">
+          <option value="angular">angular</option>
+          <option value="React">React</option>
+        </optgroup>
+        <optgroup label="backend courses">
+          <option value="node">node</option>
+          <option value=".net">.net</option>
+        </optgroup>
+      </select>
+      <br /><br />
+
+      <label for="address">Enter address:</label><br />
+      <textarea name="add" id="" rows="5" cols="50"></textarea><br /><br />
+      <button type="button" onclick="alert('hiiiii')">
+        Enter to see alert msg.
+      </button>
+      <br /><br />
+
+      <fieldset>
+        <legend>example of fieldset and legend:</legend>
+        <label for="name">Name:</label>
+        <br />
+        <input type="text" name="name" id="name" /><br />
+        <br />
+      </fieldset>
+      <br /><br />
+
+      <label for="course2">Select course:</label>
+      <input list="coursenames" name="course2" />
+      <!-- note that, there is nothing any type of given input. we have to always give 'list' as same as id of datalist -->
+      <datalist id="coursenames">
+        <option value=".net"></option>
+        <option value="Angular"></option>
+        <option value="React"></option>
+        <option value="other"></option>
+      </datalist>
+      <br />
+      <br />
+
+      <input type="submit" value="Submit" /><br /><br />
+      <input type="reset" value="reset" />
+    </form>
+  </body>
+</html>

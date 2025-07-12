@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ToDo.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3 id="firstHeading" class="mt-3 text-decoration-underline">Add Your Task Here: </h3>
+        <div class="row g-3">
+            <div class="col-md-6 addTaskSection">
+                <input type="text" name="input" id="addTask" class="form-control border border-secondary-subtle p-2"
+                    placeholder="Add your new task here...">
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-outline-success py-2 px-3" id="addTaskBtn">Add</button>
+            </div>
+        </div>
+        <div class="col-md-12 mt-3">
+            <table id="MyTable" class="table table-hover table-bordered border border-secondary-subtle text-center">
+                <thead class="table-dark">
+                    <tr>
+                        <th class="col_index">Index</th>
+                        <th class="check_Task"></th>
+                        <th>Tasks</th>
+                        <th class="col_actions">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="ToDo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

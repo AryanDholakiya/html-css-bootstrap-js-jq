@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Div Element</title>
+  <link rel="icon" href="img/html5 icon.gif">
+  <style>
+    .firstdiv {
+      width: 300px;
+      background-color: bisque;
+      margin: auto;
+      /* marging auto only works when we have a div which is not 100% wide.  */
+    }
+
+    .any {
+      background-color: white;
+      display: flex;
+    }
+    
+    /* .subdiv {
+      float: left;
+      width: 33.33%;
+    } */
+
+    .note {
+      color: red;
+      font-size: 120%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="firstdiv">
+    <p>
+    <blockquote>if we have a div with the fixed size, which is not containing the
+      block level space then we can cerntered it b giving it margin:
+      auto........</blockquote>
+
+    <small> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio,
+      deleniti ipsum laboriosam nisi magnam voluptas harum labore ipsam
+      suscipit assumenda unde at in nesciunt adipisci ex ea repudiandae,
+      quidem illum.</small>
+    </p>
+    <h4>this is a heading in div</h4>
+  </div>
+
+  <hr>
+
+  <div class="any">
+    <div style="background: #000; color: white;" class="subdiv">
+      <h2>hello</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit enim laborum architecto ab autem, cupiditate
+        excepturi reprehenderit neque earum quos nemo! Debitis nulla maxime architecto repellat, placeat rem quasi non?
+      </p>
+    </div>
+    <div style="background-color: aquamarine;" class="subdiv">
+      <h2>heyy</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel impedit molestiae praesentium cumque veniam sunt.
+        Hic quidem totam inventore consequatur culpa ratione eligendi, aperiam nulla omnis mollitia id provident magni
+        est illum vitae fugiat reiciendis tempora officiis exercitationem, ipsa beatae.</p>
+    </div>
+    <div class="subdiv">
+      <h2>HII</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quo optio soluta, rem nesciunt eos nihil
+        inventore commodi perferendis minima.</p>
+    </div>
+  </div>
+
+
+  <div>
+    <h1>how span is <span class="note">Important</span> to give style to specific text .</h1>
+    <p>This is <span class="note">important</span> .</p>
+  </div>
+
+</body>
+
+</html>

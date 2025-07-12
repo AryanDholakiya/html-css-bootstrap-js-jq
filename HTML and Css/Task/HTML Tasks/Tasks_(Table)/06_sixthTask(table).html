@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 6</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+      div {
+        margin: 80px;
+      }
+      table {
+        width: 100%;
+        border: 4px outset black;
+        padding: 3px;
+        font-size: 20px;
+      }
+      /* table td {
+        margin: 10px;
+      } */
+      td,
+      th {
+        border: inset black;
+        padding: 20px;
+      }
+      /* p.inset {
+        border-style: inset;
+      } */
+    </style>
+  </head>
+  <body>
+    <div>
+      <table>
+        <tr>
+          <th>Header</th>
+          <th>Header</th>
+          <th>Header</th>
+          <th>Header</th>
+        </tr>
+        <tr>
+          <td rowspan="4">
+            Span <br />
+            rows
+          </td>
+          <td colspan="3">Span Columns</td>
+        </tr>
+        <tr>
+          <td colspan="2">Span Columns</td>
+          <td rowspan="3">span both</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Span rows</td>
+          <td>Span Columns</td>
+        </tr>
+        <tr>
+          <td>span both</td>
+        </tr>
+      </table>
+    </div>
+    <!-- <p class="inset">An inset border.</p> -->
+  </body>
+</html>

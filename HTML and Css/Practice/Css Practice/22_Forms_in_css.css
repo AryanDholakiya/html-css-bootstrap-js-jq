@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+.form {
+  margin: 40px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 4px;
+}
+.form input[type="text"],
+select {
+  width: 550px;
+  padding: 10px;
+  margin: 8px;
+  border: none;
+  border-bottom: 1px solid gray;
+  border-radius: 3px;
+}
+.form input[type="text"]:focus {
+  outline: 1px solid blue;
+  background-color: lightblue;
+  transition: width 0.5s ease-in-out;
+  width: 100%;
+}
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(5, 167, 5);
+}

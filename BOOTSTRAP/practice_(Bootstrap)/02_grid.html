@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid using Bootsrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container text-center">1. For Simple Understanding || 3 Equal columns.
+        <p>this example shows that how we can create three equal-width columns.. on all devices and screen widths</p>
+    </div>
+    <div class="container-fluid text-center p-4">
+        <div class="row">
+            <div class="col bg-primary p-3">Col-4</div>
+            <div class="col bg-dark text-white p-3">Col-4</div>
+            <div class="col bg-primary p-3">Col-4</div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container text-center">2. Responsive Columns
+        <p>Because of ol-sm-3, the columns will automatically
+            stack on top of each other On mobile phones or screens that are less than 576px wide.
+        </p>
+    </div>
+
+    <div class="container-fluid p-4 text-center">
+        <div class="row">
+            <div class="col-sm-3 bg-primary p-3">Col-sm-3</div>
+            <div class="col-sm-3 bg-dark p-3 text-white">Col-sm-3</div>
+            <div class="col-sm-3 bg-primary p-3">Col-sm-3</div>
+            <div class="col-sm-3 bg-dark p-3 text-white">Col-sm-3</div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container text-center">3. Two Unequal Responsive Columns
+        <p>this example shows how to get two various-width columns starting at tablets and scaling to large extra
+            desktops
+        </p>
+    </div>
+
+    <div class="container-fluid p-4">
+        <div class="row">
+            <div class="col-sm-4 bg-dark p-3 text-white text-center">
+                col-sm-4
+            </div>
+            <div class="col-sm-8 bg-danger p-3 text-white text-center">
+                col.sm-8
+            </div>
+            <!-- here if we don-specify for "col-sm-8" then bootstrap will automatically make that of width 8 -->
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container text-center ">
+        4. Auto-layout columns || Equal width
+        <p>here are two grid layouts that apply to every device and viewport, from xs to xxl. Add any number of
+            unit-less classes for each breakpoint you need and every column will be the same width.</p>
+    </div>
+
+    <div class="container-fluid text-center p-4">
+        <div class="row">
+            <div class="col bg-dark text-white p-3">col-6</div>
+            <div class="col bg-primary p-3">col-6</div>
+        </div>
+        <br>
+        <div class="row g-3">
+            <div class="col ">
+                <div class="bg-dark text-white p-3">col-4</div>
+            </div>
+            <div class="col ">
+                <div class="bg-dark text-white p-3">col-4</div>
+            </div>
+            <div class="col ">
+                <div class="bg-dark text-white p-3">col-4</div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container text-center ">
+        5. Setting any One Column width
+        <p>set the width of 1 and rest are adjust automatically.</p>
+    </div>
+
+    <div class="container-fluid text-center p-4">
+        <div class="row">
+            <div class="col-6 bg-dark text-white p-3">col 6</div>
+            <div class="col bg-primary p-3">col-3</div>
+            <div class="col bg-dark text-white p-3">col-3</div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col bg-dark text-white p-3">col-2</div>
+            <div class="col-8 bg-danger text-white p-3">col-8</div>
+            <div class="col bg-dark text-white p-3">col-2</div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container text-center">
+        6. Variable width content
+        <p>Use col-{breakpoint}-auto classes to size columns based on the natural width of their content.</p>
+    </div>
+    <div class="container-fluid p-4 text-center">
+        <div class="row justify-content-md-center">
+            <!-- note here "justify-content-md-center": that means -> content ne center ma krse 768 k tenathi vdhu screen size mate. -->
+            <div class="col col-lg-2 p-3 bg-primary">
+                take 2-col at lg
+            </div>
+            <div class="col col-md-auto p-3 bg-dark text-white">
+                column at large screen.adjust according to content.
+            </div>
+            <div class="col col-lg-2 p-3 bg-primary">
+                column at large screen.
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col p-3 bg-primary">col only</div>
+            <div class="col-md-auto p-3 bg-dark text-white">
+                col-md-auto
+            </div>
+            <div class="col col-lg-2 p-3 bg-primary">col-lg-2</div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container text-center ">
+        7. Mix and Match
+        <p>Don't want your columns to simply stack in some grid tiers? Use a combination of different classes for each
+            tier as needed. See the example below for a better idea of how it all works.</p>
+    </div>
+
+    <div class="container-fluid p-4 text-center">
+        <div class="row">
+            <div class="col-md-8 bg-dark text-white p-3">col-md-8</div>
+            <!-- col-md-8 means medium k large screen maate 12 mathi 8 column ni space occupy krse but enathi nani size maate available bdhi space occupy krse. -->
+            <div class="col-6 col-md-4 bg-primary p-3">col-6 , col-md-4</div>
+            <!-- remove the col-6 class in second div here and see the difference in small screen breakpoint -->
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-6 col-md-4 bg-dark text-white p-3">col-6 col-md-4</div>
+            <div class="col-6 col-md-4 bg-danger text-white p-3">col-6 col-md-4</div>
+            <div class="col-8 col-md-4 bg-warning text-white p-3">col-6 col-md-4</div>
+        </div>
+    </div>
+
+    <hr>
+    <!-- Row-Columns -->
+
+    <div class="text-center">
+        <h1>Row columns</h1>
+    </div>
+
+    <hr>
+
+    <div class="container-fluid">
+        <div class="row row-cols-2 text-center">
+            <div class="col bg-primary p-3">hello</div>
+            <div class="col bg-warning p-3">hello</div>
+            <div class="col bg-danger p-3">hello</div>
+            <div class="col bg-dark p-3 text-white">hello</div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container-fluid">
+        <div class="row row-cols-4 text-center text-white">
+            <div class="col bg-primary p-3">col</div>
+            <div class="col bg-warning p-3">col</div>
+            <div class="col-6 bg-primary p-3">col-6</div>
+            <div class="col bg-danger p-3">col</div>
+            <!-- 1st div ne 3 col 2nd ne 3 col and 3rd ne 6col etle 12 finish to 4th col niche pdi jse. -->
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container-fluid">
+        <div class="row row-cols-1 row-cols-sm-3 row-cols-md-2 text-center text-white">
+            <div class="col bg-primary p-3">col</div>
+            <div class="col bg-danger p-3">col</div>
+            <div class="col bg-warning p-3">col</div>
+            <div class="col bg-info p-3">col</div>
+            <div class="col bg-primary p-3">col</div>
+        </div>
+
+    </div>
+</body>
+
+</html>

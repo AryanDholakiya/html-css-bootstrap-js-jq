@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Property</title>
+    <link rel="stylesheet" href="09_Display_proprty_css.css" />
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a
+          href="https://www.google.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >google</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://remixicon.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Remix-Icon</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://fonts.google.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >google-fonts</a
+        >
+      </li>
+      <p>Here we gave <span style="color: red">display: inline</span></p>
+    </ul>
+    <div class="div">
+      <a
+        href="https://fonts.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >google-fonts</a
+      >
+      <a href="https://remixicon.com/" target="_blank" rel="noopener noreferrer"
+        >Remix-Icon</a
+      >
+      <a
+        href="https://www.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >google</a
+      >
+      <p>Here we gave <span style="color: red">display: block</span></p>
+    </div>
+    <br />
+    <hr />
+    <div class="div2">
+      <h3>display : none</h3>
+      <p class="ex0">
+        <span>Text 1</span>
+        <span>Text 2</span>
+        <span>Text 3</span>
+      </p>
+      <br />
+      <h3>display : inline</h3>
+      <!-- in output of this...bgcolor problem cames from the universal style. -->
+      <br />
+      <p class="ex1">
+        <span>Text 1</span>
+        <span>Text 2</span>
+        <span>Text 3</span>
+      </p>
+      <br /><br />
+
+      <h3>display : block</h3>
+      <p class="ex2">
+        <span>Text 1</span>
+        <span>Text 2</span>
+        <span>Text 3</span>
+      </p>
+      <br />
+      <h3>display : inline-block</h3>
+      <p class="ex3">
+        <span>Text 1</span>
+        <span>Text 2</span>
+        <span>Text 3</span>
+      </p>
+      <br />
+      <h3>display : flex</h3>
+      <p class="ex4">
+        <span>Text 1</span>
+        <span>Text 2</span>
+        <span>Text 3</span>
+        <small>hello</small>
+      </p>
+      <br />
+      <h3>display : grid</h3>
+      <p class="ex5">
+        <span>Text 1</span>
+        <span>Text 2</span>
+        <span>Text 3</span>
+      </p>
+    </div>
+    <br />
+    <br />
+    <hr />
+    <h3>Difference between display:none and visiblity: hidden</h3>
+    <div class="mainDivOfImg">
+      <div class="img" id="imgBox1">
+        <h5>Box 1</h5>
+        <img
+          src="https://www.w3schools.com/css/img_5terre.jpg"
+          alt="img1"
+          width="100%"
+        />
+        <button type="button" style="width: 100%" onclick="remove()">
+          Remove
+        </button>
+      </div>
+      <div class="img" id="imgBox2">
+        <h5>Box 2</h5>
+        <img
+          src="https://www.w3schools.com/css/img_lights.jpg"
+          alt="img1"
+          width="100%"
+        />
+        <button type="button" style="width: 100%" onclick="Unvisible()">
+          Hide
+        </button>
+      </div>
+      <div class="img" id="imgBox3">
+        <h5>Box 3</h5>
+        <img
+          src="https://www.w3schools.com/css/img_forest.jpg"
+          alt="img1"
+          width="100%"
+        />
+        <button type="button" style="width: 100%" onclick="resetAll()">
+          Reset
+        </button>
+      </div>
+    </div>
+
+    <p>
+      visibility:hidden hides the element, but it still takes up space in the
+      layout. <br />display:none removes the element from the document. It does
+      not take up any space.
+    </p>
+    <script>
+      function remove() {
+        document.getElementById("imgBox1").style.display = "none";
+      }
+      function Unvisible() {
+        document.getElementById("imgBox2").style.visibility = "hidden";
+      }
+      function resetAll() {
+        document.getElementById("imgBox1").style.display = "inline";
+        document.getElementById("imgBox2").style.visibility = "visible";
+      }
+    </script>
+  </body>
+</html>

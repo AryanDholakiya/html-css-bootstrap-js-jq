@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  margin: 10px;
+}
+.main ul {
+  list-style: none;
+  overflow: auto;
+  /* must have to take overflow: auto or hidden */
+  background-color: #777;
+  position: sticky;
+  top: 0;
+}
+.main li {
+  float: left;
+}
+ul li.rightfloat {
+  float: right;
+  background-color: dodgerblue;
+}
+.main li a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+.main li a:hover {
+  background-color: #333;
+  color: white;
+}
+.bottomPart {
+  line-height: 30px;
+}
+@media screen and (max-width: 600px) {
+  .main ul li,
+  .main ul li .rightfloat {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}

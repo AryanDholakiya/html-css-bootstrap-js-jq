@@ -1,0 +1,37 @@
+Que. var and let vchche na difference:
+
+1.--> var na use thi aapne same variable ne fri declare kri skie still it's value remains same.. that means that variable redeclare thy ske.-->let na use thi redeclare na thy ske.
+
+2.--> variables declare with "var" has Global scope and "let" has bloc scope.
+
+
+Que. let and const vchche difference:
+
+1.--> let ma na use thi variable ne reassign thy ske.. --> const na use thi reassign bhi nai thy ske ane redeclare bhi nai thy ske.
+
+
+
+
+//Tasks folder 11_DOM_Task ni js file ma line 4 and 5 ma  "document.querySelector(".popupText")" querySelector ne bdle "
+
+
+
+////Task 1: String to array with first letter capital
+//Que: user String : oscar career point 
+//output: ["Oscar", "Career", "Point"]
+
+
+let a = "oscar career point";
+
+
+let b = a.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1));
+console.log(b); //['Oscar', 'Career', 'Point']
+
+// function capitalizeFirstLetterOfEachWord(arr) {
+//     return arr.map(word => word.charAt(0).toUpperCase() + word.slice(1)); 
+// }
+
+//map method ek loop prakaranu 6. je loop chalavse array na drek element prr. array na drek element pr word aave 6 e word no first letter pkdva charAt(0) no use kryo ane chhelle eni sathe pachhal ni string ne joint krr didhi slice na use thi
+
+
+https://www.google.com/alerts

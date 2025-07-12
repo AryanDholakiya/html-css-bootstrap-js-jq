@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo-Class Selector</title>
+    <link rel="stylesheet" href="02_PseudoClassSelector.css" />
+  </head>
+  <body>
+    <a href="https://remixicon.com/" target="_blank">This is a link</a>
+    <br />
+    <!-- it is commented because of the ' p:first-child b ' in css -->
+    <p>
+      <b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS
+      definition in order to be effective.
+    </p>
+    <p>
+      <b>Note:</b> a:active MUST come after a:hover in the CSS definition in
+      order to be effective.
+    </p>
+    <br />
+    <p><b>Hover Effect on div:</b></p>
+    <div>Hover On this Div.</div>
+    <br />
+    <p><b>Hover on div to make a p tag visible.</b></p>
+    <div class="special">
+      hover Over this div to make 'p' Visible
+      <p>
+        This is the 'p' which is not visible because of display none and when
+        you hover on div it becomes visible because of display block.
+      </p>
+    </div>
+    <br />
+    <p><b>The :first-child pSeudo Class</b></p>
+    <p>
+      The :first-child pseudo-class matches a specified element that is the
+      first child of another element
+    </p>
+    <blockquote>
+      <p>
+        Here this i tag <i>'Italic'</i> is the first child of p tag so it will
+        affected
+      </p>
+
+      <i>this i tag will not affect.</i>
+      <p>
+        it affects the every i tag which is first child of p tag like
+        <i>'Italic'</i>
+      </p>
+    </blockquote>
+
+    <div class="nth_child_div">
+      <p>this is the example of nth child.</p>
+    </div>
+    <br />
+    <div class="nth_child_div">
+      <h3>this is the example of nth child.</h3>
+      <li>hello</li>
+      <li>hello</li>
+      <li>hello</li>
+      <li>hello</li>
+    </div>
+    <br />
+    <div class="odd-even">
+      <p>hello</p>
+      <p>heyy</p>
+      <p>hello</p>
+      <p>heyy</p>
+    </div>
+    <div class="odd-even">
+      <p>hello</p>
+      <p>heyy</p>
+      <p>hello</p>
+      <p>heyy</p>
+    </div>
+    <div class="focus">
+      <a href="https://www.google.com">google</a>
+      <br />
+      <label for="name">Enter Name: </label>
+      <input type="text" name="" id="" />
+    </div>
+    <p contenteditable="true" spellcheck="true">
+      examplee of ::spelling-error. try to edit something in this para.
+    </p>
+  </body>
+</html>

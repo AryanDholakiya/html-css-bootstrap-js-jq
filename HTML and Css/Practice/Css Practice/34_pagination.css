@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.main {
+  text-align: center;
+}
+.pagination a {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.397);
+  padding: 8px 14px;
+  border-radius: 3px;
+  transition: 0.4s ease;
+}
+.pagination a:hover:not(.special) {
+  background-color: #888;
+  color: white;
+}
+.pagination .special {
+  background-color: rgb(12, 12, 12);
+  color: white;
+}

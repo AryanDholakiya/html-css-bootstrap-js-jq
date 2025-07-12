@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.main {
+  border: 1px solid black;
+  display: flex;
+}
+.left-side {
+  flex: 30%;
+}
+.right-side {
+  flex: 70%;
+  margin: 10px;
+  font-size: 130%;
+}
+.menulist {
+  list-style-type: none;
+  text-align: center;
+}
+.item {
+  padding: 10px;
+  /* border: 1px solid black; */
+  margin: 10px;
+  border-radius: 10px;
+  background-color: aquamarine;
+}
+@media screen and (max-width: 600px) {
+  .main {
+    flex-direction: column;
+  }
+}

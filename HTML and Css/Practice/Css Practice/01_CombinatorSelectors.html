@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combinator Selector</title>
+    <link rel="stylesheet" href="01_CombinatorSelector.css" />
+  </head>
+  <body>
+    <h2>Descendant Selcetor(space)</h2>
+    <div>
+      <p>this p tag is descendant of div tag.</p>
+      <p>this p tag is aslo descendant of div tag.</p>
+      <section>
+        <p>this p tag is also.</p>
+      </section>
+    </div>
+    <hr />
+    <h2>
+      Child Selector(selects all elements that are the children of a specified
+      element)
+    </h2>
+    <div class="childSelector">
+      <p>This is child of div.</p>
+      <p>This is child of div also.</p>
+      <section>
+        <p>this p tag is descendant of div not a child of div..</p>
+      </section>
+    </div>
+    <p>
+      this p tag is not child of div(childSelector) so style will not aplly on
+      this.
+    </p>
+    <br />
+    <hr />
+
+    <h2>Next Sibling Combinator(+) Or Adjacent Sibling Selector</h2>
+    <p>
+      (The + selector is used to select an element that is directly after
+      another specific element.)
+    </p>
+    <div class="nextSibling">
+      <p>this will not affect by + selector</p>
+      <p>this will not affect by + selector</p>
+    </div>
+    <!-- <section>
+      <p>
+        this p tag is comes directly after next sibling combinator but it is
+        child of secction so it will not affect.
+      </p>
+    </section> -->
+    <!-- if we uncomment upper code then direct next p tag will not affect -->
+    <p>this comes directly after div so this will affect by '+' selector.</p>
+    <p>this will not affect by + selector</p>
+    <br />
+    <hr />
+
+    <h2>General Sibling Selector(~)</h2>
+    <p>
+      The general sibling selector (~) selects all elements that are next
+      siblings of a specified element.
+    </p>
+    <div class="generalSibling">
+      <p>this will not affect by general sibling.</p>
+      <p>this will not affect by general sibling.</p>
+    </div>
+    <p>
+      this p tag affect by genreal sibling because it is next sibling of
+      specified element.
+    </p>
+    <p>this p tag will also affect.</p>
+    <h3>this h3 tag will not affect because it is not p tag.</h3>
+    <section>
+      <p>
+        this p tag is next to the specified element..but this is child of
+        section tag so it will not affect.
+      </p>
+    </section>
+    <p>this p tag will also affect.</p>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+
+  background: linear-gradient(
+      to top right,
+      rgba(0, 0, 255, 0.493),
+      rgba(255, 0, 0, 0.616)
+    ),
+    url(../imgs/task\ 1\ img.avif);
+
+  /* note this we have to low the opacity using the rgba opacity so image will be visible.*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+div {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+h1 {
+  font-size: 400%;
+  letter-spacing: 10px;
+  margin: 20px;
+  color: white;
+}
+p {
+  font-size: 200%;
+  margin: 20px;
+  letter-spacing: 2px;
+  text-align: justify;
+  text-align-last: center;
+  /* note: for the centering the last line in the pragraph. */
+  color: white;
+}
+hr {
+  margin: auto;
+  width: 100px;
+  color: white;
+  height: 4px;
+  background-color: white;
+}

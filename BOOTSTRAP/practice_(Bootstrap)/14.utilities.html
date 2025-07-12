@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilities</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h4 class="text-center text-decoration-underline">background colors</h4>
+        <div class="bg-primary-subtle p-2 mb-2">.bg-primary-subtle</div>
+        <div class="bg-primary p-2 mb-2">.bg-primary</div>
+        <div class="bg-body-secondary p-2 mb-2">.bg-body-secondary</div>
+        <div class="bg-secondary-subtle p-2 mb-2">.bg-secondary-subtle</div>
+        <div class="bg-secondary p-2 mb-2">.bg-secondary</div>
+        <div class="bg-body-tertiary p-2 mb-2">.bg-body-tertiary</div>
+        <div class="bg-black p-2 mb-2 text-white">.bg-black</div>
+        <div class="bg-dark p-2 mb-2 text-white">.bg-dark</div>
+        <br>
+
+        <!-- bg-opacity -->
+        <h4 class="text-center text-decoration-underline">background opaity</h4>
+        <div class="bg-primary p-2 mb-2 bg-opacity-75">bg-opacity-75</div>
+        <div class="bg-primary p-2 mb-2 bg-opacity-50">bg-opacity-50</div>
+
+        <br>
+
+        <!-- border -->
+        <h4 class="text-center text-decoration-underline">borders</h4>
+        <span class="border border-secondary p-4 mx-2"></span>
+        <span class="border-bottom border-secondary p-4 mx-2"></span>
+        <span class="border-top border-secondary p-4 mx-2"></span>
+        <span class="border-start border-secondary p-4 mx-2"></span>
+        <span class="border-end border-secondary p-4 mx-2"></span>
+        <hr class="mb-5">
+        <div class="border border-4 border-primary rounded-end border-opacity-75 p-4 mx-2">border-4, border-primary,
+            rounded-end</div><br>
+        <div class="border border-4 border-primary-subtle p-4 mx-2"></div>
+        <br>
+
+        <!-- colors -->
+        <h4 class="text-center text-decoration-underline">Colors</h4>
+        <p class="text-primary">text-primary</p>
+        <p class="text-primary-emphasis">text-primary-emphasis</p>
+        <p class="text-success">text-success</p>
+        <p class="text-success-emphasis">text-success-emphasis</p>
+        <p class="text-danger">text-danger</p>
+        <p class="text-danger text-opacity-50">text-danger text-opacity-50</p>
+        <p class="text-danger-emphasis">text-danger-emphasis</p>
+
+        <!-- Display -->
+        <h4 class="text-center text-decoration-underline">display</h4>
+        <div class="d-sm-none d-xxl-block ">This text is vissible only at screen size xxl .</div>
+        <br>
+        <div class="text-bg-dark p-3 d-inline">d-inline</div>
+        <div class="text-bg-primary p-3 d-inline">d-inline</div>
+        <!-- text-bg-"color" aapvathi text color always white rese and only blackground change thse-->
+        <br>
+        <br>
+        <span class="bg-secondary p-2 d-block mb-3">d-block(in span)</span>
+        <span class="bg-danger p-2 d-block mb-3">d-block</span>
+
+        <h5 class="text-start text-decoration-underline">flex</h5>
+        <div class="d-flex p-3 border border-secondary-subtle mb-3 bg-secondary-subtle">i'm flexbox container</div>
+        <div class=" d-sm-inline-flex d-md-flex p-3 border border-subtle-secondary bg-secondary-subtle mb-3">i'm inline
+            flexbox container only at d-sm-inline-flex
+        </div>
+        <div class="d-flex flex-row bg-secondary-subtle mb-3">
+            <div class="p-2 border border-1 border-success">1</div>
+            <div class="p-2 border border-1 border-success">2</div>
+            <div class="p-2 border border-1 border-success">3</div>
+        </div>
+        <div class="d-flex flex-row-reverse bg-secondary-subtle mb-3">
+            <div class="p-2 border border-1 border-success">1</div>
+            <div class="p-2 border border-1 border-success">2</div>
+            <div class="p-2 border border-1 border-success">3</div>
+        </div>
+        <div class="d-flex flex-column bg-secondary-subtle mb-3">
+            <div class="p-2 border border-1 border-success">1</div>
+            <div class="p-2 border border-1 border-success">2</div>
+            <div class="p-2 border border-1 border-success">3</div>
+        </div>
+        <div class="d-flex flex-column-reverse bg-secondary-subtle mb-3">
+            <div class="p-2 border border-1 border-success">1</div>
+            <div class="p-2 border border-1 border-success">2</div>
+            <div class="p-2 border border-1 border-success">3</div>
+        </div>
+
+        <h5 class="text-start text-decoration-underline">Justify-content</h5>
+        <div class="d-flex justify-content-start bg-secondary-subtle">
+            <div class="p-2 border border-success">jc-start</div>
+            <div class="p-2 border border-success">2</div>
+            <div class="p-2 border border-success">3</div>
+        </div>
+        <br>
+        <div class="d-flex justify-content-center bg-secondary-subtle">
+            <div class="p-2 border border-success">jc-start</div>
+            <div class="p-2 border border-success">2</div>
+            <div class="p-2 border border-success">3</div>
+        </div>
+        <br>
+        <div class="d-flex justify-content-end bg-secondary-subtle">
+            <div class="p-2 border border-success">jc-start</div>
+            <div class="p-2 border border-success">2</div>
+            <div class="p-2 border border-success">3</div>
+        </div>
+        <br>
+        <div class="d-flex justify-content-between bg-secondary-subtle">
+            <div class="p-2 border border-success">jc-start</div>
+            <div class="p-2 border border-success">2</div>
+            <div class="p-2 border border-success">3</div>
+        </div>
+        <br>
+        <div class="d-flex justify-content-around bg-secondary-subtle">
+            <div class="p-2 border border-success">jc-start</div>
+            <div class="p-2 border border-success">2</div>
+            <div class="p-2 border border-success">3</div>
+        </div>
+        <br>
+        <div class="d-flex justify-content-evenly bg-secondary-subtle">
+            <div class="p-2 border border-success">jc-start</div>
+            <div class="p-2 border border-success">2</div>
+            <div class="p-2 border border-success">3</div>
+        </div>
+        <br>
+        <h5 class="text-start text-decoration-underline">flex-fill</h5>
+        <div class="d-flex bg-secondary-subtle mb-3">
+            <div class="p-2 border border-secondary flex-fill">d-fill aapvathi eni content size mujab jgya lese and
+                baakini jgya ma stretch thse</div>
+            <div class="p-2 border border-secondary flex-fill">second</div>
+            <div class="p-2 border border-secondary flex-fill">third</div>
+        </div>
+
+
+        <!-- flex-grow -->
+        <h5 class="text-start text-decoration-underline">flex-grow</h5>
+        <div class="d-flex bg-secondary-subtle mb-3">
+            <div class="p-2 border border-secondary flex-grow-1">flex-grow-1</div>
+            <!-- flx-grow-1 ne lidhe e div e tene mlti max jgya achieve kri lidhi and bakina div only need mujab ni jgya lese -->
+            <div class="p-2 border border-secondary">second</div>
+            <div class="p-2 border border-secondary">third</div>
+        </div>
+
+
+        <!-- Auto-margin in flex -->
+        <h5 class="text-start text-decoration-underline">Auto-margin in flex</h5>
+        <div class="d-flex bg-secondary-subtle mb-3">
+            <div class="p-3 border border-secondary">1</div>
+            <div class="p-3 border border-secondary">2</div>
+            <div class="p-3 border border-secondary ms-auto">ms-auto</div>
+        </div>
+
+
+        <!-- flex-wrap -->
+        <h5 class="text-start text-decoration-underline">flex-wrap</h5>
+        <div class="d-flex flex-wrap bg-secondary-subtle mb-3">
+            <div class="p-3 border border-secondary">flex-wrap-1</div>
+            <div class="p-3 border border-secondary">flex-wrap</div>
+            <div class="p-3 border border-secondary">flex-wrap</div>
+            <div class="p-3 border border-secondary">flex-wrap</div>
+            <div class="p-3 border border-secondary">flex-wrap</div>
+            <div class="p-3 border border-secondary">flex-wrap</div>
+            <div class="p-3 border border-secondary">flex-wrap</div>
+            <div class="p-3 border border-secondary">flex-wrap</div>
+            <div class="p-3 border border-secondary">flex-wrap</div>
+            <div class="p-3 border border-secondary">flex-wrap</div>
+            <div class="p-3 border border-secondary">flex-wrap-last</div>
+        </div>
+
+
+        <!-- order in flex -->
+        <h5 class="text-start text-decoration-underline">order in flex</h5>
+        <div class="d-flex flex-wrap bg-secondary-subtle mb-3">
+            <div class="p-3 border flex-fill border-secondary order-1">order-1</div>
+            <div class="p-3 border flex-fill border-secondary order-3">order-3</div>
+            <div class="p-3 border flex-fill border-secondary order-4">order-4</div>
+            <div class="p-3 border flex-fill border-secondary order-2">order-2</div>
+        </div>
+
+        <hr>
+        <h4 class="text-center text-decoration-underline">interactions</h4>
+
+        <!-- text-selection -->
+        <h5 class="text-start text-decoration-underline">text-selection</h5>
+        <p class="user-select-all">entire paragraph will be selected when user click on it.</p>
+        <p class="user-select-auto">any portion of th paragraph will be selected according to user's choice.</p>
+        <p class="user-select-none">none of the text is selectable by user.</p>
+        <br>
+
+        <!-- pointer-event -->
+        <h5 class="text-start text-decoration-underline">pointer-event</h5>
+        <p><a href="https://getbootstrap.com/docs/5.3/utilities/interactions/" class="pe-none">This Link</a> can not be
+            clicked because of "pe-none" class.</p>
+        <p><a href="https://getbootstrap.com/docs/5.3/utilities/interactions/" class="pe-auto">This Link</a> can be
+            clicked "pe-auto" class.</p>
+        <br>
+
+        <!-- link-opacity -->
+        <h5 class="text-start text-decoration-underline">link-opacity</h5>
+        <a href="#" class="link-opacity-25">Link with opacity 25</a><br>
+        <a href="#" class="link-opacity-50">Link with opacity 50</a><br>
+        <a href="#" class="link-opacity-75">Link with opacity 75</a><br>
+        <a href="#" class="link-opacity-100">Link with opacity 100</a><br>
+        <br>
+
+
+        <!-- link-opacity on hover and underline and underline offset and underline opacity -->
+        <h5 class="text-start text-decoration-underline">link-opacity on hover and underline and underline offset and
+            underline opacity</h5>
+        <a href="#" class="link-opacity-25-hover link-underline-primary link-offset-1 link-underline-opacity-10">Link
+            with opacity 25</a><br>
+        <a href="#" class="link-opacity-50-hover link-underline-danger link-offset-2 link-underline-opacity-50">Link
+            with opacity 50</a><br>
+        <a href="#" class="link-opacity-75-hover link-underline-warning link-offset-3 link-underline-opacity-75">Link
+            with opacity 75</a><br>
+        <a href="#" class="link-opacity-100-hover link-underline-secondary link-offset-2 link-underline-opacity-25">Link
+            with opacity 100</a><br>
+        <br>
+
+
+        <!-- link-color on hover and underline and underline offset and underline opacity -->
+        <h5 class="text-start text-decoration-underline">link color and hover effects</h5>
+        <a href="#"
+            class="link-warning link-opacity-25-hover link-underline-primary link-offset-1 link-underline-opacity-10 link-underline-opacity-50-hover">Link
+            with opacity 25</a><br>
+        <a href="#"
+            class="link-secondary link-opacity-50-hover link-underline-danger link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover">Link
+            with opacity 50</a><br>
+        <a href="#"
+            class="link-success link-opacity-75-hover link-underline-warning link-offset-3 link-underline-opacity-75">Link
+            with opacity 75</a><br>
+        <a href="#"
+            class="link-info link-opacity-100-hover link-underline-secondary link-offset-2 link-underline-opacity-25">Link
+            with opacity 100</a>
+        <br>
+
+
+        <!-- Position -->
+        <hr>
+        <h4 class="text-center text-decoration-underline">Position</h4>
+
+        <div class="position-relative bg-secondary p-10" style="height: 200px; width: 100%;">
+            <div class="position-absolute top-0 start-0 text-bg-danger">1</div>
+            <div class="position-absolute top-0 end-0 text-bg-danger">2</div>
+            <div class="position-absolute bottom-0 text-bg-danger">3</div>
+            <div class="position-absolute end-0 bottom-0 text-bg-danger">4</div>
+        </div>
+        <br>
+        <h5 class="text-start text-decoration-underline ms-4">center Elements(translate-middle: = translate(-50%,-50%) )
+        </h5>
+        <div class="position-relative bg-secondary p-10" style="height: 200px; width: 100%;">
+            <div class="position-absolute top-0 start-0 text-bg-danger p-2 translate-middle">1</div>
+            <div class="position-absolute top-0 start-50 text-bg-danger translate-middle p-2">2</div>
+            <div class="position-absolute top-0 start-100 text-bg-danger p-2 translate-middle">3</div>
+            <div class="position-absolute top-50 start-0 text-bg-danger translate-middle p-2">4</div>
+            <div class="position-absolute top-50 start-50 text-bg-danger translate-middle p-2">5</div>
+            <div class="position-absolute top-50 start-100 text-bg-danger translate-middle p-2">6</div>
+            <div class="position-absolute top-100 start-0 text-bg-danger p-2 translate-middle">7</div>
+            <div class="position-absolute top-100 start-50 text-bg-danger p-2 translate-middle">8</div>
+            <div class="position-absolute start-100 top-100 text-bg-danger p-2 translate-middle">9</div>
+        </div>
+        <br>
+        <h5 class="text-start text-decoration-underline ms-4">center Elements (Only at any one axis)</h5>
+        <div class="position-relative bg-secondary p-10" style="height: 200px; width: 100%;">
+            <div class="position-absolute top-0 start-0 text-bg-danger p-2 ">1</div>
+            <div class="position-absolute top-0 start-50 text-bg-danger translate-middle-x p-2">2</div>
+            <div class="position-absolute top-0 end-0 text-bg-danger p-2">3</div>
+            <div class="position-absolute top-50 start-0 text-bg-danger translate-middle-y p-2">4</div>
+            <div class="position-absolute top-50 start-50 text-bg-danger translate-middle p-2">5</div>
+            <div class="position-absolute top-50 end-0 translate-middle-y text-bg-danger  p-2">6</div>
+            <div class="position-absolute bottom-0 start-0 text-bg-danger p-2">7</div>
+            <div class="position-absolute bottom-0 start-50 text-bg-danger p-2 translate-middle-x">8</div>
+            <div class="position-absolute end-0 bottom-0 text-bg-danger p-2">9</div>
+        </div>
+        <br>
+
+        <!-- Examples -->
+        <h5 class="text-start text-decoration-underline mb-3">Examples</h5>
+        <div class="d-flex justify-content-around">
+            <button class="btn btn-primary position-relative">Mails
+                <span
+                    class="position-absolute start-100 top-0 badge rounded-pill text-bg-secondary translate-middle text-light">99+</span>
+            </button>
+
+            <button class="btn btn-warning position-relative">Alert
+                <span
+                    class="p-2 bg-danger badge rounded-circle border border-secondary-subtle position-absolute top-0 start-100 translate-middle"><span
+                        class="visually-hidden">1</span></span>
+            </button>
+        </div>
+        <br>
+
+        <!-- Progess bar -->
+        <h5 class="text-start text-decoration-underline mb-4">Progess bar</h5>
+        <div class="position-relative mb-5">
+            <div class="progress" style="height: 2px;">
+                <div class="progress-bar bg-danger" style="width: 50%;"></div>
+            </div>
+            <button class="btn btn-primary rounded-pill position-absolute top-0 start-0 translate-middle-y">1</button>
+            <button class="btn btn-primary rounded-pill position-absolute top-0 start-50 translate-middle-y">2</button>
+            <button class="btn btn-primary rounded-pill position-absolute top-0 start-100 translate-middle">3</button>
+        </div>
+
+        <br>
+
+        <!-- Sizing -->
+        <h4 class="text-center text-decoration-underline">SIZING</h4>
+        <h5 class="text-start text-decoration-underline mb-4">width</h5>
+        <div class="w-25 border border-secondary-subtle p-2 mb-2 text-bg-secondary">width 25%</div>
+        <div class="w-50 border border-secondary-subtle p-2 mb-2 text-bg-secondary">width 50%</div>
+        <div class="w-75 border border-secondary-subtle p-2 mb-2 text-bg-secondary">width 75%</div>
+        <div class="w-100 border border-secondary-subtle p-2 mb-2 text-bg-secondary">width 100%</div>
+        <div class="w-auto border border-secondary-subtle p-2 mb-2 text-bg-secondary">width auto</div>
+        <br>
+        <h5 class="text-start text-decoration-underline mb-4">height</h5>
+        <div class="p-2 border border-primary d-flex " style="height: 200px;">
+            <div class="h-25 flex-fill  border border-secondary-subtle p-2 mb-2 text-bg-secondary">width 25%</div>
+            <div class="h-50 flex-fill border border-secondary-subtle p-2 mb-2 text-bg-secondary">width 50%</div>
+            <div class="h-75 flex-fill border border-secondary-subtle p-2 mb-2 text-bg-secondary">width 75%</div>
+            <div class="h-100 flex-fill border border-secondary-subtle p-2 mb-2 text-bg-secondary">width 100%</div>
+            <div class="h-auto flex-fill border border-secondary-subtle p-2 mb-2 text-bg-secondary">width auto
+            </div>
+        </div>
+        <br>
+        <h5 class="text-start text-decoration-underline mb-4">Horizontally centered div</h5>
+        <div class="p-2 w-25 border border-secondary-subtle bg-body-secondary text-center mx-auto ">mx-auto</div>
+        <br>
+
+        <!-- Text in Bootstrap -->
+        <h4 class="text-center text-decoration-underline">Text</h4>
+        <h5 class="text-start text-decoration-underline mb-4">Text-alignment</h5>
+        <p class="text-start">this is the example of text-alignment.</p>
+        <p class="text-center">this is the example of text-alignment.</p>
+        <p class="text-end">this is the example of text-alignment.</p>
+        <p class="text-md-end">this is the example of text-alignment.(text-md-end)</p>
+        <p class="text-md-center">this is the example of text-alignment.(text-md-center)</p>
+        <br>
+
+        <!-- text-wrap and text-nowrap -->
+        <h5 class="text-start text-decoration-underline mb-4">Text-wrapping and overflow</h5>
+        <div class=" badge bg-primary mb-2 text-wrap" style="width: 7rem;">
+            text is wrapped usinng "text-wrap" class.
+        </div>
+
+        <div class="  bg-primary text-nowrap border border-secondary" style="width: 7rem;">
+            text is not wrapped usinng "text-nowrap" class.
+        </div>
+        <br>
+
+        <!-- text-break -->
+        <h5 class="text-start text-decoration-underline mb-4">text-break class</h5>
+        <div class="text-break">
+            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        </div>
+        <br>
+
+        <!-- text-transform -->
+        <h5 class="text-start text-decoration-underline mb-4">text-transform class</h5>
+        <p class="text-lowercase">ABCDEfghijkl</p>
+        <p class="text-uppercase">ABCDEfghijkl</p>
+        <p class="text-capitalize">aBCDEfghijkl</p>
+        <br>
+
+        <!-- font-size -->
+        <h5 class="text-start text-decoration-underline mb-4">.fs-n class (font-size)</h5>
+        <p class="fs-1">font size 1</p>
+        <p class="fs-2">font size 2</p>
+        <p class="fs-3">font size 3</p>
+        <p class="fs-4">font size 4</p>
+        <p class="fs-5">font size 5</p>
+        <p class="fs-6">font size 6</p>
+        <br>
+
+        <!-- font-weight and italics -->
+        <h5 class="text-start text-decoration-underline mb-4">font-weight and italics</h5>
+        <p class="fw-bold">font bold</p>
+        <p class="fw-bolder">font bolder (relative to parent) </p>
+        <p class="fw-semibold">font semibold</p>
+        <p class="fw-medium">font medium</p>
+        <p class="fw-normal">font normal</p>
+        <p class="fw-light">font light</p>
+        <br>
+        <p class="fst-normal">font with normal style</p>
+        <p class="fst-italic">font with italic style</p>
+        <br>
+
+        <!-- line-height -->
+        <h5 class="text-start text-decoration-underline mb-4">line-height</h5>
+        <p class="lh-1"><span class="fw-bolder">.lh-1 :</span> This is a long paragraph written to show how the
+            line-height of an element
+            is affected
+            by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes
+            can be customized as needed with our utility API.</p>
+        <p class="lh-sm;"><span class="fw-bolder">.lh-sm : </span>This is a long paragraph written to show how the
+            line-height of an
+            element is
+            affected by ourutilities. Classes are applied to the element itself or sometimes the parent element. These
+            classes can be customized as needed with our utility API.</p>
+        <p class="lh-base"><span class="fw-bolder">.lh-base : </span>This is a long paragraph written to show how the
+            line-height of an
+            element is
+            affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These
+            classes can be
+            customized as needed with our utility API.</p>
+        <p class="lh-lg"><span class="fw-bolder">.lh-lg : </span>This is a long paragraph written to show how the
+            line-height of an
+            element is affected
+            by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes
+            can be customized as needed with our utility API.</p>
+        <br>
+
+        <!-- Visibility -->
+        <h4 class="text-center text-decoration-underline mb-4">Visibility</h4>
+        <div class="invisible">This text is invisible</div>
+        <div class="visbile text-primary">This text will be invisible if we give calss "invisible" instead of "visible".
+        </div>
+        <br>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

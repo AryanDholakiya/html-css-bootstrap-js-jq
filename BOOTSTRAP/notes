@@ -1,0 +1,104 @@
+> bootstrap colors: primary, secondary, warning, success, danger, info, light, dark.
+
+> do not miss to add row div if you want to use col-sm col-md-3 etc calsses.
+
+> m.imp:
+
+Breakpoint Class infix Dimensions
+
+Extrasmall None <576px
+Small sm ≥576px
+Medium md ≥768px
+Large lg ≥992px
+Extra-large xl ≥1200px
+Extra-extra-large xxl ≥1400px
+
+dropdown button ma : e button prr dropdown no arrow btavva ---> ".dropdown-toggle"
+button na click prr dropdown apper-disappear kravva --> data-bs-toggle="dropdown"
+menubar bnavva : ".dropdown-menu"
+ane ena child ne ".dropdown-item"
+
+que:
+line 170 : textjustify is not working.
+gutters : why we have to take 1 div inner side?
+06_css grid > grid is not working
+
+09_img line 34 ma img ne height nai laagti
+ans > it's because of Bootstrap’s .img-fluid class. height: auto of .img-fluid overrides the height="200px" that you set in the HTML attribute, because CSS rules generally take precedence when applied directly via a class.
+
+> ussually .img-fluid means:
+> .img-fluid {
+> max-width: 100%;
+> height: auto;
+> }
+
+bootstrap note:
+
+> jyare bhi "form-btn" class no use krvo hoi(usually we use form-btn for give a look of our checkbox and radio button like a button) tyare "label" always input field ni niche avse.
+
+> btn-check ne kaam krva mate lable always inputfield ni niche hovo joie and label na for attribute ni value input ni id same hovi joie line 254 file 13.Bootstrap-Forms.html
+
+> note.. form-switch form line no 204 in file 13.Bootstrap-Forms.html
+
+> we should have to note that because of same id in select and "for" attribute in label, whenever we click on the label select field will got selected..if we dont give these attributes same then this will not happen
+
+> we should have to note that because of same id in select and "for" attribute in label, whenever we click on the label select field will got selected..if we dont give these attributes same then this will not happen 335 line no.
+
+> floating labels use krva mate input field ma "placeholder" attribute no use krsu to j e kaam krse. and label ne always input ni niche j levu
+
+> form floating ma -- <!-- note: always take label after the select tag..otherwise it will not work as aspected --> line no. 373 to 382 nu example
+
+> data-bs-toggle="collapse" in accordion
+
+> thing to note down in accordion:
+
+    1. .accordion > .accordion-header > .accordion-button > .accordion-body > .accordion-collapse
+    2. .accordian class na div ma ek parent id aapvu
+    3. .accordion-button ma data-bs-toggle="collapse" data-bs-target="#Collapse2" aapvu.
+    4. .accordion-body sathe bajuma kai j nai aave. tena parent div ma .accordion-collapse levu and sathe  data-bs-parent and   "id" attibute apvu bhulvu nai. id attibute same button na data-bs-target ma aapelu hse jenathi toggle thy.
+
+Element/Class-------> Purpose
+
+.accordion----------> The wrapper for the entire accordion
+.accordion-item----------> Each section (item) in the accordion
+.accordion-header----------> Title/heading of the section
+.accordion-button----------> The clickable button to toggle collapse
+data-bs-toggle="collapse"----------> Enables toggle functionality
+data-bs-target="#collapseOne"----------> Links the button to the content div
+.accordion-collapse----------> The collapsible content
+.collapse----------> Bootstrap class to hide/show
+.show----------> Makes the first item open by default
+data-bs-parent="#myAccordion"----------> Ensures only one panel opens at a time (like a true accordion)
+
+breadcrumbing file 18
+
+file 20: carousel:
+
+points to remember:
+
+carousel: Main component class. je div ma aa class aapie tya id aapvi bhulvi nahi
+carousel-inner: Container for the slides. note that we must have to include this.
+carousel-item: Each slide. class "active" must on first item other wise output j nai dekhay
+active: Required on the first item to make it visible initially.
+carousel-control-prev/next: Navigation buttons.
+data-bs-ride="carousel": Enables auto cycling.
+(just add this for auto carousel.
+
+.carousel > carousel-inner > carousel-item > data-bs-interval > img > carousel-caption > button(controls) > span > " data-bs-slide" & "data-bs-target" > .carousel-indicators > "data-bs-target" & "data-bs-slide-to="0",1,2
+
+left, right, up, bottom dropdown open thy ena mate bootstrap "dropdowns"
+
+<!-- Modal in bootstrap -->
+
+.modal > .model-dialoge > .modal-content > .modal-header ( > .modal title in h1) > .modal-body > .modal-footer
+
+> imp note:
+
+> "data-bs-backdrop="static"" when you set it to the static that means modal will not going to close on the click outside of modal
+> data-bs-keyboard="false" prevent modal to close on esc key (these both, we have to put where we took a .modal class)
+> for scrollable modal we have to ad .modal-dialoge-scrollable with .modal-dialoge class
+> Add .modal-dialog-centered to .modal-dialog to vertically center the modal.
+> use .modal-sm , .modal-lg, .modal-xl, .modal-fullscreen for size of modal(where we took modal-dialog)
+
+> scrollspy
+> toast to chl hi nahi rhe

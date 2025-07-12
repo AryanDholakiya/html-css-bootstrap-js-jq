@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.container {
+  width: 30%;
+  position: relative;
+  margin-bottom: 20px;
+}
+.img1 {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: #888; */
+  transition: 0.9s ease;
+  opacity: 0;
+  border-radius: 20px;
+}
+.container:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.932);
+  opacity: 0.5;
+}
+.container:hover .text,
+.container:hover .text2 {
+  opacity: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.text {
+  white-space: nowrap;
+  text-align: center;
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  top: 50%;
+  left: 15.5%;
+  /* opacity: 0; */
+  transition: 0.4s ease;
+}
+.text2 {
+  white-space: nowrap;
+  text-align: center;
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  top: 50%;
+  left: 4.5%;
+  opacity: 0;
+  transition: 0.4s ease;
+}
+/* img 3 */
+.container3 {
+  width: 30%;
+  position: relative;
+  margin-bottom: 20px;
+}
+.img3 {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
+.overlay3 {
+  position: absolute;
+  top: 100%;
+  height: 0%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  transition: 0.9s ease;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.text3 {
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+.container3:hover .overlay3 {
+  height: 100%;
+  top: 0;
+}

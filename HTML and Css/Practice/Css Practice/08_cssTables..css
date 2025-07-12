@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+div {
+  text-align: center;
+  margin: 40px;
+  overflow-x: auto;
+}
+h3 {
+  margin: 10px;
+  text-align: center;
+}
+table {
+  border: none;
+  width: 100%;
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid gray;
+}
+th {
+  padding: 10px;
+  background-color: #059862;
+  color: white;
+  /* vertical-align: bottom; */
+}
+td {
+  padding: 7px;
+  vertical-align: bottom;
+  height: 50px;
+  /* note this height and vertical-align: bottom property. */
+  /* text-align: left; */
+}
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+table tr:hover {
+  background-color: #ddd;
+}
+caption {
+  caption-side: bottom;
+}
