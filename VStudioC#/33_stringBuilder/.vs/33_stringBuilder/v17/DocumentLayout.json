@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\33_stringBuilder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F98EDC3-34BD-48EA-99FF-9840C1200C07}|StringBuilder_miniTask\\StringBuilder_miniTask.csproj|e:\\git files\\html-css-bootstrap-js-jq\\vstudioc#\\33_stringbuilder\\stringbuilder_minitask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F98EDC3-34BD-48EA-99FF-9840C1200C07}|StringBuilder_miniTask\\StringBuilder_miniTask.csproj|solutionrelative:stringbuilder_minitask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037048E3-B394-4EED-A595-40B24D76AA56}|33_stringBuilder\\33_stringBuilder.csproj|e:\\git files\\html-css-bootstrap-js-jq\\vstudioc#\\33_stringbuilder\\33_stringbuilder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037048E3-B394-4EED-A595-40B24D76AA56}|33_stringBuilder\\33_stringBuilder.csproj|solutionrelative:33_stringbuilder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\33_stringBuilder\\StringBuilder_miniTask\\Program.cs",
+              "RelativeDocumentMoniker": "StringBuilder_miniTask\\Program.cs",
+              "ToolTip": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\33_stringBuilder\\StringBuilder_miniTask\\Program.cs",
+              "RelativeToolTip": "StringBuilder_miniTask\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T04:09:27.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\33_stringBuilder\\33_stringBuilder\\Program.cs",
+              "RelativeDocumentMoniker": "33_stringBuilder\\Program.cs",
+              "ToolTip": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\33_stringBuilder\\33_stringBuilder\\Program.cs",
+              "RelativeToolTip": "33_stringBuilder\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T05:17:37.481Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

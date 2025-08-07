@@ -1,0 +1,8 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\34_Generics\34_Generics\bin\Debug\34_Generics.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\34_Generics\34_Generics\bin\Debug\34_Generics.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\34_Generics\34_Generics\bin\Debug\34_Generics.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\34_Generics\34_Generics\obj\Debug\34_Generics.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\34_Generics\34_Generics\obj\Debug\34_Generics.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\34_Generics\34_Generics\obj\Debug\34_Generics.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\34_Generics\34_Generics\obj\Debug\34_Generics.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\34_Generics\34_Generics\obj\Debug\34_Generics.exe.config

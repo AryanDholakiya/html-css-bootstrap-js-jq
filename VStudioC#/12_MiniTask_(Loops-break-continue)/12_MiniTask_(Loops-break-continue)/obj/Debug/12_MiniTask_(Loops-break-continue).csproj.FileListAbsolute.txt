@@ -1,0 +1,8 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\12_MiniTask_(Loops-break-continue)\12_MiniTask_(Loops-break-continue)\bin\Debug\12_MiniTask_(Loops-break-continue).exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\12_MiniTask_(Loops-break-continue)\12_MiniTask_(Loops-break-continue)\bin\Debug\12_MiniTask_(Loops-break-continue).exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\12_MiniTask_(Loops-break-continue)\12_MiniTask_(Loops-break-continue)\bin\Debug\12_MiniTask_(Loops-break-continue).pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\12_MiniTask_(Loops-break-continue)\12_MiniTask_(Loops-break-continue)\obj\Debug\12_MiniTask_(Loops-break-continue).csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\12_MiniTask_(Loops-break-continue)\12_MiniTask_(Loops-break-continue)\obj\Debug\12_MiniTask_(Loops-break-continue).csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\12_MiniTask_(Loops-break-continue)\12_MiniTask_(Loops-break-continue)\obj\Debug\12_MiniTask_(Loops-break-continue).exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\12_MiniTask_(Loops-break-continue)\12_MiniTask_(Loops-break-continue)\obj\Debug\12_MiniTask_(Loops-break-continue).pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\12_MiniTask_(Loops-break-continue)\12_MiniTask_(Loops-break-continue)\obj\Debug\12_MiniTask_(Loops-break-continue).exe.config

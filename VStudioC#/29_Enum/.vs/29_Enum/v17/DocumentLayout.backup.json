@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\29_Enum\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D988B16F-9C76-4BA0-B76A-8C3C6E0F0742}|29_Enum\\29_Enum.csproj|e:\\git files\\html-css-bootstrap-js-jq\\vstudioc#\\29_enum\\29_enum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D988B16F-9C76-4BA0-B76A-8C3C6E0F0742}|29_Enum\\29_Enum.csproj|solutionrelative:29_enum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\29_Enum\\29_Enum\\Program.cs",
+              "RelativeDocumentMoniker": "29_Enum\\Program.cs",
+              "ToolTip": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\29_Enum\\29_Enum\\Program.cs",
+              "RelativeToolTip": "29_Enum\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T06:44:39.785Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\25_Inheritance\25_Inheritance\bin\Debug\25_Inheritance.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\25_Inheritance\25_Inheritance\bin\Debug\25_Inheritance.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\25_Inheritance\25_Inheritance\bin\Debug\25_Inheritance.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\25_Inheritance\25_Inheritance\obj\Debug\25_Inheritance.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\25_Inheritance\25_Inheritance\obj\Debug\25_Inheritance.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\25_Inheritance\25_Inheritance\obj\Debug\25_Inheritance.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\25_Inheritance\25_Inheritance\obj\Debug\25_Inheritance.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\25_Inheritance\25_Inheritance\obj\Debug\25_Inheritance.exe.config

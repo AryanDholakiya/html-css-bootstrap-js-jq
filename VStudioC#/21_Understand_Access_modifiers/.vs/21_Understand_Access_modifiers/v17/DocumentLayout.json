@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\21_Understand_Access_modifiers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5BB519D-8ADA-4F32-B27A-EE3D4CBF3512}|21_Understand_Access_modifiers\\21_Understand_Access_modifiers.csproj|e:\\git files\\html-css-bootstrap-js-jq\\vstudioc#\\21_understand_access_modifiers\\21_understand_access_modifiers\\program1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5BB519D-8ADA-4F32-B27A-EE3D4CBF3512}|21_Understand_Access_modifiers\\21_Understand_Access_modifiers.csproj|solutionrelative:21_understand_access_modifiers\\program1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25479E31-47D1-4C23-BB00-4E8257229289}|21.1_Understand_Access_Modifiers_2\\21.1_Understand_Access_Modifiers_2.csproj|e:\\git files\\html-css-bootstrap-js-jq\\vstudioc#\\21_understand_access_modifiers\\21.1_understand_access_modifiers_2\\program2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25479E31-47D1-4C23-BB00-4E8257229289}|21.1_Understand_Access_Modifiers_2\\21.1_Understand_Access_Modifiers_2.csproj|solutionrelative:21.1_understand_access_modifiers_2\\program2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program1.cs",
+              "DocumentMoniker": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\21_Understand_Access_modifiers\\21_Understand_Access_modifiers\\Program1.cs",
+              "RelativeDocumentMoniker": "21_Understand_Access_modifiers\\Program1.cs",
+              "ToolTip": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\21_Understand_Access_modifiers\\21_Understand_Access_modifiers\\Program1.cs",
+              "RelativeToolTip": "21_Understand_Access_modifiers\\Program1.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAADwv5cAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T05:26:20.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program2.cs",
+              "DocumentMoniker": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\21_Understand_Access_modifiers\\21.1_Understand_Access_Modifiers_2\\Program2.cs",
+              "RelativeDocumentMoniker": "21.1_Understand_Access_Modifiers_2\\Program2.cs",
+              "ToolTip": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\21_Understand_Access_modifiers\\21.1_Understand_Access_Modifiers_2\\Program2.cs",
+              "RelativeToolTip": "21.1_Understand_Access_Modifiers_2\\Program2.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAuwEsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T05:26:57.983Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

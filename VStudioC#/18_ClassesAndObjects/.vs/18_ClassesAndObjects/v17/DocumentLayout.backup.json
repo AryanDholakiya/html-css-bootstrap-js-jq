@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\18_ClassesAndObjects\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B946CF50-3062-4565-8AD0-EEC0AC3BCA6A}|18_ClassesAndObjects\\18_ClassesAndObjects.csproj|e:\\git files\\html-css-bootstrap-js-jq\\vstudioc#\\18_classesandobjects\\18_classesandobjects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B946CF50-3062-4565-8AD0-EEC0AC3BCA6A}|18_ClassesAndObjects\\18_ClassesAndObjects.csproj|solutionrelative:18_classesandobjects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\18_ClassesAndObjects\\18_ClassesAndObjects\\Program.cs",
+              "RelativeDocumentMoniker": "18_ClassesAndObjects\\Program.cs",
+              "ToolTip": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\18_ClassesAndObjects\\18_ClassesAndObjects\\Program.cs",
+              "RelativeToolTip": "18_ClassesAndObjects\\Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAmwFAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T06:20:42.405Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

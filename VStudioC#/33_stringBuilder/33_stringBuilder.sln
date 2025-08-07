@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33_stringBuilder", "33_stringBuilder\33_stringBuilder.csproj", "{037048E3-B394-4EED-A595-40B24D76AA56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilder_miniTask", "StringBuilder_miniTask\StringBuilder_miniTask.csproj", "{4F98EDC3-34BD-48EA-99FF-9840C1200C07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{037048E3-B394-4EED-A595-40B24D76AA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037048E3-B394-4EED-A595-40B24D76AA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037048E3-B394-4EED-A595-40B24D76AA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037048E3-B394-4EED-A595-40B24D76AA56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F98EDC3-34BD-48EA-99FF-9840C1200C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F98EDC3-34BD-48EA-99FF-9840C1200C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F98EDC3-34BD-48EA-99FF-9840C1200C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F98EDC3-34BD-48EA-99FF-9840C1200C07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3C26240-C945-4F59-A2AC-0D4F15774C77}
+	EndGlobalSection
+EndGlobal

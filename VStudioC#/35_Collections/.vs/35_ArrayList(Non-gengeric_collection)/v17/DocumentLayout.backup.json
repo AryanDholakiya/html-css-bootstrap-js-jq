@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\35_Collections\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79763223-5E37-46CD-A99F-43C89EF51BDF}|35_Collections\\35_Collections.csproj|e:\\git files\\html-css-bootstrap-js-jq\\vstudioc#\\35_collections\\35_collections\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79763223-5E37-46CD-A99F-43C89EF51BDF}|35_Collections\\35_Collections.csproj|solutionrelative:35_collections\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\35_Collections\\35_Collections\\Program.cs",
+              "RelativeDocumentMoniker": "35_Collections\\Program.cs",
+              "ToolTip": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\35_Collections\\35_Collections\\Program.cs",
+              "RelativeToolTip": "35_Collections\\Program.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAgwFIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T06:39:58.814Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

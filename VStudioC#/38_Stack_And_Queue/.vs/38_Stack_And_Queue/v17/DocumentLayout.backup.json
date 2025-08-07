@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\38_Stack_And_Queue\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72A5EA7A-85AE-4970-8A4F-E51AD3674035}|38_Stack_And_Queue\\38_Stack_And_Queue.csproj|e:\\git files\\html-css-bootstrap-js-jq\\vstudioc#\\38_stack_and_queue\\38_stack_and_queue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A5EA7A-85AE-4970-8A4F-E51AD3674035}|38_Stack_And_Queue\\38_Stack_And_Queue.csproj|solutionrelative:38_stack_and_queue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\38_Stack_And_Queue\\38_Stack_And_Queue\\Program.cs",
+              "RelativeDocumentMoniker": "38_Stack_And_Queue\\Program.cs",
+              "ToolTip": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\38_Stack_And_Queue\\38_Stack_And_Queue\\Program.cs",
+              "RelativeToolTip": "38_Stack_And_Queue\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAgwFkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:44:31.473Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

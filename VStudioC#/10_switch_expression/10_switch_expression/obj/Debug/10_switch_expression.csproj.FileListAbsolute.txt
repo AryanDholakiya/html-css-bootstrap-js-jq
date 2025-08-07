@@ -1,0 +1,8 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\10_switch_expression\10_switch_expression\bin\Debug\10_switch_expression.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\10_switch_expression\10_switch_expression\bin\Debug\10_switch_expression.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\10_switch_expression\10_switch_expression\bin\Debug\10_switch_expression.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\10_switch_expression\10_switch_expression\obj\Debug\10_switch_expression.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\10_switch_expression\10_switch_expression\obj\Debug\10_switch_expression.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\10_switch_expression\10_switch_expression\obj\Debug\10_switch_expression.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\10_switch_expression\10_switch_expression\obj\Debug\10_switch_expression.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\10_switch_expression\10_switch_expression\obj\Debug\10_switch_expression.exe.config

@@ -1,0 +1,12 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\21_Understand_Access_modifiers\21.1_Understand_Access_Modifiers_2\bin\Debug\21.1_Understand_Access_Modifiers_2.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\21_Understand_Access_modifiers\21.1_Understand_Access_Modifiers_2\bin\Debug\21.1_Understand_Access_Modifiers_2.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\21_Understand_Access_modifiers\21.1_Understand_Access_Modifiers_2\bin\Debug\21.1_Understand_Access_Modifiers_2.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\21_Understand_Access_modifiers\21.1_Understand_Access_Modifiers_2\bin\Debug\21_Understand_Access_modifiers.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\21_Understand_Access_modifiers\21.1_Understand_Access_Modifiers_2\bin\Debug\21_Understand_Access_modifiers.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\21_Understand_Access_modifiers\21.1_Understand_Access_Modifiers_2\bin\Debug\21_Understand_Access_modifiers.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\21_Understand_Access_modifiers\21.1_Understand_Access_Modifiers_2\obj\Debug\21.1_Understand_Access_Modifiers_2.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\21_Understand_Access_modifiers\21.1_Understand_Access_Modifiers_2\obj\Debug\21.1_Understand_Access_Modifiers_2.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\21_Understand_Access_modifiers\21.1_Understand_Access_Modifiers_2\obj\Debug\21.1_Und.C3569446.Up2Date
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\21_Understand_Access_modifiers\21.1_Understand_Access_Modifiers_2\obj\Debug\21.1_Understand_Access_Modifiers_2.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\21_Understand_Access_modifiers\21.1_Understand_Access_Modifiers_2\obj\Debug\21.1_Understand_Access_Modifiers_2.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\21_Understand_Access_modifiers\21.1_Understand_Access_Modifiers_2\obj\Debug\21.1_Understand_Access_Modifiers_2.exe.config

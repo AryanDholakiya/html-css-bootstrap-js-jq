@@ -1,0 +1,12 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\30_Namespace\Another_namespace\bin\Debug\Another_namespace.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\30_Namespace\Another_namespace\bin\Debug\Another_namespace.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\30_Namespace\Another_namespace\bin\Debug\Another_namespace.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\30_Namespace\Another_namespace\bin\Debug\30_Namespace.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\30_Namespace\Another_namespace\bin\Debug\30_Namespace.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\30_Namespace\Another_namespace\bin\Debug\30_Namespace.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\30_Namespace\Another_namespace\obj\Debug\Another_namespace.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\30_Namespace\Another_namespace\obj\Debug\Another_namespace.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\30_Namespace\Another_namespace\obj\Debug\Another_.0525F7E2.Up2Date
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\30_Namespace\Another_namespace\obj\Debug\Another_namespace.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\30_Namespace\Another_namespace\obj\Debug\Another_namespace.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\30_Namespace\Another_namespace\obj\Debug\Another_namespace.exe.config

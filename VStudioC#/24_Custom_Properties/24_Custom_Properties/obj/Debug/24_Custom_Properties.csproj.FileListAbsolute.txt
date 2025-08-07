@@ -1,0 +1,8 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\24_Custom_Properties\24_Custom_Properties\bin\Debug\24_Custom_Properties.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\24_Custom_Properties\24_Custom_Properties\bin\Debug\24_Custom_Properties.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\24_Custom_Properties\24_Custom_Properties\bin\Debug\24_Custom_Properties.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\24_Custom_Properties\24_Custom_Properties\obj\Debug\24_Custom_Properties.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\24_Custom_Properties\24_Custom_Properties\obj\Debug\24_Custom_Properties.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\24_Custom_Properties\24_Custom_Properties\obj\Debug\24_Custom_Properties.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\24_Custom_Properties\24_Custom_Properties\obj\Debug\24_Custom_Properties.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\24_Custom_Properties\24_Custom_Properties\obj\Debug\24_Custom_Properties.exe.config

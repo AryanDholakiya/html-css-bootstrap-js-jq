@@ -1,0 +1,8 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\22_Encapsulation_and_Properties\22_Encapsulation_and_Properties\bin\Debug\22_Encapsulation_and_Properties.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\22_Encapsulation_and_Properties\22_Encapsulation_and_Properties\bin\Debug\22_Encapsulation_and_Properties.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\22_Encapsulation_and_Properties\22_Encapsulation_and_Properties\bin\Debug\22_Encapsulation_and_Properties.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\22_Encapsulation_and_Properties\22_Encapsulation_and_Properties\obj\Debug\22_Encapsulation_and_Properties.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\22_Encapsulation_and_Properties\22_Encapsulation_and_Properties\obj\Debug\22_Encapsulation_and_Properties.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\22_Encapsulation_and_Properties\22_Encapsulation_and_Properties\obj\Debug\22_Encapsulation_and_Properties.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\22_Encapsulation_and_Properties\22_Encapsulation_and_Properties\obj\Debug\22_Encapsulation_and_Properties.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\22_Encapsulation_and_Properties\22_Encapsulation_and_Properties\obj\Debug\22_Encapsulation_and_Properties.exe.config

@@ -1,0 +1,8 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\33_stringBuilder\StringBuilder_miniTask\bin\Debug\StringBuilder_miniTask.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\33_stringBuilder\StringBuilder_miniTask\bin\Debug\StringBuilder_miniTask.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\33_stringBuilder\StringBuilder_miniTask\bin\Debug\StringBuilder_miniTask.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\33_stringBuilder\StringBuilder_miniTask\obj\Debug\StringBuilder_miniTask.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\33_stringBuilder\StringBuilder_miniTask\obj\Debug\StringBuilder_miniTask.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\33_stringBuilder\StringBuilder_miniTask\obj\Debug\StringBuilder_miniTask.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\33_stringBuilder\StringBuilder_miniTask\obj\Debug\StringBuilder_miniTask.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\33_stringBuilder\StringBuilder_miniTask\obj\Debug\StringBuilder_miniTask.exe.config

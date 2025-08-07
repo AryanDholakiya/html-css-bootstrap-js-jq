@@ -1,0 +1,7 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\02_Variables\02_Variables\bin\Debug\02_Variables.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\02_Variables\02_Variables\bin\Debug\02_Variables.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\02_Variables\02_Variables\bin\Debug\02_Variables.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\02_Variables\02_Variables\obj\Debug\02_Variables and DataTypes.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\02_Variables\02_Variables\obj\Debug\02_Variables and DataTypes.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\02_Variables\02_Variables\obj\Debug\02_Variables.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\02_Variables\02_Variables\obj\Debug\02_Variables.pdb

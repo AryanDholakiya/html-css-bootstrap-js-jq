@@ -1,0 +1,8 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\26_polymorphism\26_polymorphism\bin\Debug\26_polymorphism.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\26_polymorphism\26_polymorphism\bin\Debug\26_polymorphism.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\26_polymorphism\26_polymorphism\bin\Debug\26_polymorphism.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\26_polymorphism\26_polymorphism\obj\Debug\26_polymorphism.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\26_polymorphism\26_polymorphism\obj\Debug\26_polymorphism.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\26_polymorphism\26_polymorphism\obj\Debug\26_polymorphism.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\26_polymorphism\26_polymorphism\obj\Debug\26_polymorphism.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\26_polymorphism\26_polymorphism\obj\Debug\26_polymorphism.exe.config

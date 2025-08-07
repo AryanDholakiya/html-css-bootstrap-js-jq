@@ -1,0 +1,15 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\35_Collections\35_Collections\bin\Debug\net8.0\35_Collections.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\35_Collections\35_Collections\bin\Debug\net8.0\35_Collections.deps.json
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\35_Collections\35_Collections\bin\Debug\net8.0\35_Collections.runtimeconfig.json
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\35_Collections\35_Collections\bin\Debug\net8.0\35_Collections.dll
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\35_Collections\35_Collections\bin\Debug\net8.0\35_Collections.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\35_Collections\35_Collections\obj\Debug\net8.0\35_Collections.GeneratedMSBuildEditorConfig.editorconfig
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\35_Collections\35_Collections\obj\Debug\net8.0\35_Collections.AssemblyInfoInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\35_Collections\35_Collections\obj\Debug\net8.0\35_Collections.AssemblyInfo.cs
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\35_Collections\35_Collections\obj\Debug\net8.0\35_Collections.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\35_Collections\35_Collections\obj\Debug\net8.0\35_Collections.sourcelink.json
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\35_Collections\35_Collections\obj\Debug\net8.0\35_Collections.dll
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\35_Collections\35_Collections\obj\Debug\net8.0\refint\35_Collections.dll
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\35_Collections\35_Collections\obj\Debug\net8.0\35_Collections.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\35_Collections\35_Collections\obj\Debug\net8.0\35_Collections.genruntimeconfig.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\35_Collections\35_Collections\obj\Debug\net8.0\ref\35_Collections.dll

@@ -1,0 +1,7 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\01_Basics\01_Basics\bin\Debug\01_Basics.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\01_Basics\01_Basics\bin\Debug\01_Basics.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\01_Basics\01_Basics\bin\Debug\01_Basics.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\01_Basics\01_Basics\obj\Debug\01_Basics.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\01_Basics\01_Basics\obj\Debug\01_Basics.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\01_Basics\01_Basics\obj\Debug\01_Basics.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\01_Basics\01_Basics\obj\Debug\01_Basics.pdb

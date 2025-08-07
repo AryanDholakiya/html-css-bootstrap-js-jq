@@ -1,0 +1,8 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\39_Tuples\39_Tuples\bin\Debug\39_Tuples.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\39_Tuples\39_Tuples\bin\Debug\39_Tuples.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\39_Tuples\39_Tuples\bin\Debug\39_Tuples.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\39_Tuples\39_Tuples\obj\Debug\39_Tuples.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\39_Tuples\39_Tuples\obj\Debug\39_Tuples.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\39_Tuples\39_Tuples\obj\Debug\39_Tuples.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\39_Tuples\39_Tuples\obj\Debug\39_Tuples.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\39_Tuples\39_Tuples\obj\Debug\39_Tuples.exe.config

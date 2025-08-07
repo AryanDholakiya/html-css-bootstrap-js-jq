@@ -1,0 +1,8 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\38_Stack_And_Queue\38_Stack_And_Queue\bin\Debug\38_Stack_And_Queue.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\38_Stack_And_Queue\38_Stack_And_Queue\bin\Debug\38_Stack_And_Queue.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\38_Stack_And_Queue\38_Stack_And_Queue\bin\Debug\38_Stack_And_Queue.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\38_Stack_And_Queue\38_Stack_And_Queue\obj\Debug\38_Stack_And_Queue.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\38_Stack_And_Queue\38_Stack_And_Queue\obj\Debug\38_Stack_And_Queue.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\38_Stack_And_Queue\38_Stack_And_Queue\obj\Debug\38_Stack_And_Queue.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\38_Stack_And_Queue\38_Stack_And_Queue\obj\Debug\38_Stack_And_Queue.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\38_Stack_And_Queue\38_Stack_And_Queue\obj\Debug\38_Stack_And_Queue.exe.config

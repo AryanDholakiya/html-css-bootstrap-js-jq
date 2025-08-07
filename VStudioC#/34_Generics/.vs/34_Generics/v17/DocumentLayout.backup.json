@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\34_Generics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FAEF97D-92FB-42D0-BE77-727890A8F857}|34_Generics\\34_Generics.csproj|e:\\git files\\html-css-bootstrap-js-jq\\vstudioc#\\34_generics\\34_generics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAEF97D-92FB-42D0-BE77-727890A8F857}|34_Generics\\34_Generics.csproj|solutionrelative:34_generics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FAEF97D-92FB-42D0-BE77-727890A8F857}|34_Generics\\34_Generics.csproj|e:\\git files\\html-css-bootstrap-js-jq\\vstudioc#\\34_generics\\34_generics\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAEF97D-92FB-42D0-BE77-727890A8F857}|34_Generics\\34_Generics.csproj|solutionrelative:34_generics\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\34_Generics\\34_Generics\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "34_Generics\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\34_Generics\\34_Generics\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "34_Generics\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T05:51:58.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\34_Generics\\34_Generics\\Program.cs",
+              "RelativeDocumentMoniker": "34_Generics\\Program.cs",
+              "ToolTip": "E:\\git files\\html-css-bootstrap-js-jq\\VStudioC#\\34_Generics\\34_Generics\\Program.cs",
+              "RelativeToolTip": "34_Generics\\Program.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAmwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T04:35:57.881Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

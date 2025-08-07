@@ -1,0 +1,7 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\05_Operators\05_Operators\bin\Debug\05_Operators.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\05_Operators\05_Operators\bin\Debug\05_Operators.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\05_Operators\05_Operators\bin\Debug\05_Operators.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\05_Operators\05_Operators\obj\Debug\05_Operators.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\05_Operators\05_Operators\obj\Debug\05_Operators.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\05_Operators\05_Operators\obj\Debug\05_Operators.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\05_Operators\05_Operators\obj\Debug\05_Operators.pdb

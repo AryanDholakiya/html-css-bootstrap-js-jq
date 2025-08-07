@@ -1,0 +1,8 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\08_String\08_String\bin\Debug\08_String.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\08_String\08_String\bin\Debug\08_String.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\08_String\08_String\bin\Debug\08_String.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\08_String\08_String\obj\Debug\08_String.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\08_String\08_String\obj\Debug\08_String.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\08_String\08_String\obj\Debug\08_String.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\08_String\08_String\obj\Debug\08_String.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\08_String\08_String\obj\Debug\08_String.exe.config

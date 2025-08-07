@@ -1,0 +1,7 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\04_Basic_Calculator_Program_UsingUserInput\04_Basic_Calculator_Program_UsingUserInput\bin\Debug\04_Basic_Calculator_Program_UsingUserInput.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\04_Basic_Calculator_Program_UsingUserInput\04_Basic_Calculator_Program_UsingUserInput\bin\Debug\04_Basic_Calculator_Program_UsingUserInput.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\04_Basic_Calculator_Program_UsingUserInput\04_Basic_Calculator_Program_UsingUserInput\bin\Debug\04_Basic_Calculator_Program_UsingUserInput.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\04_Basic_Calculator_Program_UsingUserInput\04_Basic_Calculator_Program_UsingUserInput\obj\Debug\04_Basic_Calculator_Program_UsingUserInput.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\04_Basic_Calculator_Program_UsingUserInput\04_Basic_Calculator_Program_UsingUserInput\obj\Debug\04_Basic_Calculator_Program_UsingUserInput.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\04_Basic_Calculator_Program_UsingUserInput\04_Basic_Calculator_Program_UsingUserInput\obj\Debug\04_Basic_Calculator_Program_UsingUserInput.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\04_Basic_Calculator_Program_UsingUserInput\04_Basic_Calculator_Program_UsingUserInput\obj\Debug\04_Basic_Calculator_Program_UsingUserInput.pdb

@@ -1,0 +1,12 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\20_Access_Modifiers\20.1_subproject\bin\Debug\20.1_subproject.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\20_Access_Modifiers\20.1_subproject\bin\Debug\20.1_subproject.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\20_Access_Modifiers\20.1_subproject\bin\Debug\20.1_subproject.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\20_Access_Modifiers\20.1_subproject\bin\Debug\20_Access_Modifiers.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\20_Access_Modifiers\20.1_subproject\bin\Debug\20_Access_Modifiers.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\20_Access_Modifiers\20.1_subproject\bin\Debug\20_Access_Modifiers.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\20_Access_Modifiers\20.1_subproject\obj\Debug\20.1_subproject.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\20_Access_Modifiers\20.1_subproject\obj\Debug\20.1_subproject.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\20_Access_Modifiers\20.1_subproject\obj\Debug\20.1_sub.16130FD9.Up2Date
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\20_Access_Modifiers\20.1_subproject\obj\Debug\20.1_subproject.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\20_Access_Modifiers\20.1_subproject\obj\Debug\20.1_subproject.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\20_Access_Modifiers\20.1_subproject\obj\Debug\20.1_subproject.exe.config

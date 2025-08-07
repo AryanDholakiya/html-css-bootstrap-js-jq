@@ -1,0 +1,8 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\27_Abstraction\27_Abstraction\bin\Debug\27_Abstraction.exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\27_Abstraction\27_Abstraction\bin\Debug\27_Abstraction.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\27_Abstraction\27_Abstraction\bin\Debug\27_Abstraction.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\27_Abstraction\27_Abstraction\obj\Debug\27_Abstraction.csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\27_Abstraction\27_Abstraction\obj\Debug\27_Abstraction.csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\27_Abstraction\27_Abstraction\obj\Debug\27_Abstraction.exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\27_Abstraction\27_Abstraction\obj\Debug\27_Abstraction.pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\27_Abstraction\27_Abstraction\obj\Debug\27_Abstraction.exe.config

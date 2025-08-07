@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "35_Collections": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

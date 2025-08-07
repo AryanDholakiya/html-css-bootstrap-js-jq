@@ -1,0 +1,8 @@
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\36_List_Collection(Non-generic)\36_List_Collection(Non-generic)\bin\Debug\36_List_Collection(Non-generic).exe.config
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\36_List_Collection(Non-generic)\36_List_Collection(Non-generic)\bin\Debug\36_List_Collection(Non-generic).exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\36_List_Collection(Non-generic)\36_List_Collection(Non-generic)\bin\Debug\36_List_Collection(Non-generic).pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\36_List_Collection(Non-generic)\36_List_Collection(Non-generic)\obj\Debug\36_List_Collection(Non-generic).csproj.AssemblyReference.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\36_List_Collection(Non-generic)\36_List_Collection(Non-generic)\obj\Debug\36_List_Collection(Non-generic).csproj.CoreCompileInputs.cache
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\36_List_Collection(Non-generic)\36_List_Collection(Non-generic)\obj\Debug\36_List_Collection(Non-generic).exe
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\36_List_Collection(Non-generic)\36_List_Collection(Non-generic)\obj\Debug\36_List_Collection(Non-generic).pdb
+E:\git files\html-css-bootstrap-js-jq\VStudioC#\36_List_Collection(Non-generic)\36_List_Collection(Non-generic)\obj\Debug\36_List_Collection(Non-generic).exe.config
